@@ -5,7 +5,7 @@
 ** For The Horde
 */
 
-header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url(https://ingether.github.io/TGD-CSS/Images/logo.png); }
+header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url(https://chogether.github.io/tgd/images/logo.png); }
 header .row > div:nth-child(1) > a img { opacity: 0; }
 
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 30px; padding-left: 30px; }
