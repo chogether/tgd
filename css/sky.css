@@ -79,9 +79,9 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ffce31;
 }
 
 @keyframes AquaLinkBG {
-    0% { background-color: #ffe1e4; }
-    40% { background-color: #ffc3ca; }
-    100% { background-color: #ffe1e4; }
+    0% { background-color: #ffebac; }
+    40% { background-color: #ffce31; }
+    100% { background-color: #ffebac; }
 }
 
 html {
@@ -93,10 +93,26 @@ body {background: none; height: auto !important;}
 
 header #header-bar>.row {z-index:200;}
 
-.menu-wrapper div.spacer:nth-of-type(3n+2) {
+.menu-wrapper div.spacer:nth-of-type(8) {
   position: absolute;
   top: -136px;
   left: 100px;
+  transform: rotate(45deg);
+  margin-top: -200px;
+  width:0.3em;
+  height: 3px !important;
+  width: 200px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%) !important;
+  opacity: 1;
+  z-index:-1;
+  margin-left: -200px;
+  animation: fadeInOut 3s 3s infinite;
+}
+
+.menu-wrapper div.spacer:nth-of-type(3) {
+  position: absolute;
+  top: -136px;
+  left: 300px;
   transform: rotate(45deg);
   margin-top: -200px;
   width:0.3em;
@@ -106,7 +122,7 @@ header #header-bar>.row {z-index:200;}
   opacity: 1;
   z-index:-1;
   margin-left: -200px;
-  animation: fadeInOut 3s 3s infinite;
+  animation: fadeInOut 6s 11s infinite;
 }
 
 
@@ -119,15 +135,29 @@ header #header-bar>.row {z-index:200;}
   left: 0px;
   width: 1200px;
   height: 200px !important;
-  background: radial-gradient(3px 3px at 20px 30px, #fff, rgba(0, 0, 0, 0)),
-    radial-gradient(3px 3px at 170px 10px, #ccc, rgba(0, 0, 0, 0)),
+  background: 
     radial-gradient(3px 3px at 50px 130px, #eee, rgba(0, 0, 0, 0)),
-    radial-gradient(3px 3px at 90px 40px, #ddd, rgba(0, 0, 0, 0)),
-    radial-gradient(3px 3px at 130px 60px, #ccc, rgba(0, 0, 0, 0)),
-    radial-gradient(3px 3px at 160px 125px, #aaa, rgba(0, 0, 0, 0)) repeat !important;
+    radial-gradient(3px 3px at 90px 40px, #ddd, rgba(0, 0, 0, 0)), repeat !important;
   background-size: 200px 200px !important;
   animation: shine 2s linear infinite;
 }
+
+.menu-wrapper div.spacer:nth-of-type(7) {
+  transform: none;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+  top: -136px;
+  left: 0px;
+  width: 1200px;
+  height: 200px !important;
+  background: radial-gradient(3px 3px at 20px 30px, #fff, rgba(0, 0, 0, 0)),
+    radial-gradient(3px 3px at 160px 125px, #aaa, rgba(0, 0, 0, 0)),
+    radial-gradient(3px 3px at 170px 10px, #ccc, rgba(0, 0, 0, 0)),
+    radial-gradient(3px 3px at 130px 60px, #ccc, rgba(0, 0, 0, 0)) repeat !important;
+  background-size: 200px 200px !important;
+}
+
 
 @keyframes cometFlight {
   0% {
