@@ -1,28 +1,30 @@
-#content-area { overflow:hidden; }
-
+#main .menu-wrapper
 .spacer {
-    overflow:hidden;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 8em;
     right: 0;
+    height: 500px;
+    width: 1024px;
+    z-index: 1;
+    pointer-events: none;
 }
 
 .spacer {
     background: radial-gradient(2px 2px at 20px 30px, #fff, rgba(0, 0, 0, 0)),
-    radial-gradient(2px 2px at 40px 70px, #ccc, rgba(0, 0, 0, 0)),
-    radial-gradient(2px 2px at 50px 160px, #ddd, rgba(0, 0, 0, 0)),
-    radial-gradient(2px 2px at 90px 40px, #fff, rgba(0, 0, 0, 0)),
-    radial-gradient(2px 2px at 130px 80px, #bbb, rgba(0, 0, 0, 0)),
-    radial-gradient(2px 2px at 160px 120px, #eee, rgba(0, 0, 0, 0)) repeat;
-    background-size: 200px 200px;
+    radial-gradient(2px 2px at 40px 70px, #f00, rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 50px 160px, #f00, rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 90px 40px, #f00, rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 130px 80px, #b00, rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 160px 120px, #e00, rgba(0, 0, 0, 0)) repeat !important;
+    background-size: 200px 200px !important;
     animation: zoom 5s infinite;
     opacity: 0;
 }
 
 .spacer:nth-child(1) {
-    background-position: 50% 50%;
+    background-position: 0% 0%;
     animation-delay: 0s;
 }
 .spacer:nth-child(2) {
@@ -59,6 +61,8 @@
     }
 }
 
-body {
-    background: #313141;
+html {
+    background: linear-gradient(to bottom, rgb(0, 90, 167), rgb(255, 253, 228));
 }
+
+body {background: none;height: 1px;}
