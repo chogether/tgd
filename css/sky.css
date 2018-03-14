@@ -94,105 +94,107 @@ body {background: none; height: auto !important;}
 header #header-bar>.row {z-index:200;}
 
 .menu-wrapper div.spacer:nth-of-type(8) {
-  position: absolute;
-  top: -136px;
-  left: 100px;
-  transform: rotate(45deg);
-  margin-top: -200px;
-  width:0.3em;
-  height: 3px !important;
-  width: 200px;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%) !important;
-  opacity: 1;
-  z-index:-1;
-  margin-left: -200px;
-  animation: fadeInOut 3s 3s infinite;
+    position: absolute;
+    top: -136px;
+    left: 100px;
+    transform: rotate(45deg);
+    margin-top: -200px;
+    width:0.3em;
+    height: 3px !important;
+    width: 200px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%) !important;
+    opacity: 1;
+    z-index:-1;
+    margin-left: -200px;
+    animation: fadeInOut 3s 3s infinite;
 }
 
 .menu-wrapper div.spacer:nth-of-type(3) {
-  position: absolute;
-  top: -136px;
-  left: 300px;
-  transform: rotate(45deg);
-  margin-top: -200px;
-  width:0.3em;
-  height: 1px !important;
-  width: 200px;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%) !important;
-  opacity: 1;
-  z-index:-1;
-  margin-left: -200px;
-  animation: fadeInOut 6s 1s infinite;
+    position: absolute;
+    top: -136px;
+    left: 300px;
+    transform: rotate(45deg);
+    margin-top: -200px;
+    width:0.3em;
+    height: 1px !important;
+    width: 200px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%) !important;
+    opacity: 1;
+    z-index:-1;
+    margin-left: -200px;
+    animation: fadeInOut 6s 1s infinite;
 }
 
 
 .menu-wrapper div.spacer:nth-of-type(2) {
-  transform: none;
-  position: absolute;
-  margin-top: 0;
-  margin-left: 0;
-  top: -136px;
-  left: 0px;
-  width: 1200px;
-  height: 200px !important;
-  background: 
-    radial-gradient(3px 3px at 50px 130px, #eee, rgba(0, 0, 0, 0)),
-    radial-gradient(3px 3px at 90px 40px, #ddd, rgba(0, 0, 0, 0)), repeat !important;
-  background-size: 200px 200px !important;
-  animation: shine 2s linear infinite;
+    transform: none;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    top: -136px;
+    left: -200px;
+    width: 1500px;
+    height: 200px !important;
+    background:
+            radial-gradient(3px 3px at 50px 130px, #eee, rgba(0, 0, 0, 0)),
+            radial-gradient(3px 3px at 190px 55px, #ddd, rgba(0, 0, 0, 0)),
+            radial-gradient(3px 3px at 90px 40px, #ddd, rgba(0, 0, 0, 0)) repeat !important;
+    background-size: 200px 200px !important;
+    animation: shine 2s linear infinite;
 }
 
 .menu-wrapper div.spacer:nth-of-type(7) {
-  transform: none;
-  position: absolute;
-  margin-top: 0;
-  margin-left: 0;
-  top: -136px;
-  left: 0px;
-  width: 1200px;
-  height: 200px !important;
-  background: radial-gradient(3px 3px at 20px 30px, #fff, rgba(0, 0, 0, 0)),
-    radial-gradient(3px 3px at 160px 125px, #aaa, rgba(0, 0, 0, 0)),
-    radial-gradient(3px 3px at 170px 10px, #ccc, rgba(0, 0, 0, 0)),
-    radial-gradient(3px 3px at 130px 60px, #ccc, rgba(0, 0, 0, 0)) repeat !important;
-  background-size: 200px 200px !important;
+    transform: none;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    top: -136px;
+    left: -200px;
+    width: 1500px;
+    height: 200px !important;
+    background:
+            radial-gradient(3px 3px at 20px 30px, #fff, rgba(0, 0, 0, 0)),
+            radial-gradient(3px 3px at 160px 125px, #aaa, rgba(0, 0, 0, 0)),
+            radial-gradient(3px 3px at 170px 10px, #ccc, rgba(0, 0, 0, 0)),
+            radial-gradient(3px 3px at 130px 60px, #ccc, rgba(0, 0, 0, 0)) repeat !important;
+    background-size: 200px 200px !important;
 }
 
 
 @keyframes cometFlight {
-  0% {
-    top: -500px;
-    left: 800px;
-    opacity: 0.5;
-  }
-  100% {
-    top: 10%;
-    left: 200px;
-    opacity: 0.5;
-  }
+    0% {
+        top: -500px;
+        left: 800px;
+        opacity: 0.5;
+    }
+    100% {
+        top: 10%;
+        left: 200px;
+        opacity: 0.5;
+    }
 }
 
 @keyframes shine {
-  0%,
-  100% {
-    opcity:1;
-  }
-  50% {
-    opacity:0.3;
-  }
+    0%,
+    100% {
+        opcity:1;
+    }
+    50% {
+        opacity:0.15;
+    }
 }
 
 @keyframes fadeInOut {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-    box-shadow: 9px 2px 16px 0px rgba(252, 252, 252, 0.1);
-  }
-  100% {
-    opacity:0;
-    margin-left: 75%;
-    margin-top: 80%;
-  }
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        box-shadow: 9px 2px 16px 0px rgba(252, 252, 252, 0.1);
+    }
+    100% {
+        opacity:0;
+        margin-left: 75%;
+        margin-top: 80%;
+    }
 }
