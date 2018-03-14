@@ -95,6 +95,10 @@ body {background: none; height: auto !important;}
 
 header #header-bar>.row {z-index:200;}
 
+.menu-wrapper div.spacer {
+    pointer-events: none;
+}
+
 .menu-wrapper div.spacer:nth-of-type(8) {
     position: absolute;
     top: -136px;
