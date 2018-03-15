@@ -378,7 +378,7 @@ header #header-bar > .row {
     animation: rotation 2s infinite;
 }
 
-.article-list-row i.fa.fa-star:nth-child(even) {
+.article-list-row:nth-child(even) i.fa.fa-star {
     animation-delay: 1s;
 }
 
