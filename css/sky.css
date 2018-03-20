@@ -272,38 +272,6 @@ header #header-bar > .row {
     pointer-events: none;
 }
 
-.menu-wrapper div.spacer:nth-of-type(8) {
-    position: absolute;
-    top: -136px;
-    left: 100px;
-    transform: rotate(45deg);
-    margin-top: -200px;
-    width: 0.3em;
-    height: 3px !important;
-    width: 200px;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%) !important;
-    opacity: 1;
-    z-index: -1;
-    margin-left: -200px;
-    animation: fadeInOut 3s 3s infinite;
-}
-
-.menu-wrapper div.spacer:nth-of-type(3) {
-    position: absolute;
-    top: -136px;
-    left: 300px;
-    transform: rotate(45deg);
-    margin-top: -200px;
-    width: 0.3em;
-    height: 1px !important;
-    width: 200px;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%) !important;
-    opacity: 1;
-    z-index: -1;
-    margin-left: -200px;
-    animation: fadeInOut 6s 1s infinite;
-}
-
 .menu-wrapper div.spacer:nth-of-type(2) {
     transform: none;
     position: absolute;
