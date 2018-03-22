@@ -156,6 +156,10 @@ header > #header-area > #header-bar-link {
     background: #ffebac!important;
 }
 
+#article-reply-area #reply-best-area .reply > .reply-header {
+    background: #ffe593
+}
+
 /* 상단 검색창 */
 header > #header-search-bar #header-search-input {
     border: 2px solid #ffce31;
