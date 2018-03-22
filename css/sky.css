@@ -137,6 +137,14 @@ header #header-bar #header-top-notice strong.notice-badge {
     background: #ffebac;
 }
 
+#article-reply-area #reply-best-area .reply > .reply-header {
+    background: #ffe593
+}
+
+#header_top_banner img {
+    filter: hue-rotate(90deg) saturate(100) grayscale(100%);
+}
+
 #article-reply-area > .header h5 {
     font-size: 14px;
     color: #ffce31;
