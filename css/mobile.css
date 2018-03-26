@@ -282,3 +282,7 @@ header > #header-area > #header-search-link {
     opacity:0.8;
   }
 }
+
+img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
+    content:url("https://static-cdn.jtvnw.net/badges/v1/eecbcf09-7566-4cf6-a54c-d5e6f9cb6d01/1");
+}
