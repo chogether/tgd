@@ -279,5 +279,6 @@ header > #header-area > #header-search-link {
   }
   50% {
     color: #ffce31;
+    opacity:0.8;
   }
 }
