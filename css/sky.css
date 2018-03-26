@@ -131,7 +131,13 @@ header #header-bar #header-top-notice strong.notice-badge {
     animation: infinite AquaLinkBG 1.5s;
 }
 
-/*#article-list>.article-list-row.notice { background-color: #ffebac; }*/
+img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
+    content:url("https://static-cdn.jtvnw.net/badges/v1/eecbcf09-7566-4cf6-a54c-d5e6f9cb6d01/1");
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+    height:18px;
+}
 
 #article-reply-area #reply-real-area .reply > .reply-header {
     background: #ffebac;
