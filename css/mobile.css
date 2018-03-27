@@ -91,9 +91,13 @@ header > #header-area > #header-bar-link {
 }
 
 /* 일반 게시글 리스트 블록 */
+#article-list #article-list-category,
 #article-list #article-list-category a {
-    border-top: 3px solid #ffce31;
     background: #ffebac !important;
+}
+
+#article-list #article-list-category {
+    border-top: 3px solid #ffce31;
 }
 
 #article-list #article-list-category > a {
