@@ -144,7 +144,11 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
 }
 
 #article-reply-area #reply-best-area .reply > .reply-header {
-    background: #ffe593
+    background: #ffebac
+}
+
+#article-reply-area #reply-best-area .reply {
+    border: 1px solid #fdc100;
 }
 
 #header_top_banner img {
