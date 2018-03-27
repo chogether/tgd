@@ -153,11 +153,15 @@ header > #header-area > #header-bar-link {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header {
-    background: #ffebac!important;
+    background: #ffebac !important;
 }
 
 #article-reply-area #reply-best-area .reply > .reply-header {
-    background: #ffe593
+    background: #ffebac;
+}
+
+#article-reply-area #reply-best-area .reply {
+    border: 1px solid #fdc100;
 }
 
 /* 상단 검색창 */
