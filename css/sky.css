@@ -152,7 +152,7 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
 }
 
 #header_top_banner img {
-    filter: hue-rotate(90deg) saturate(100) grayscale(100%);
+    /* filter: hue-rotate(90deg) saturate(100) grayscale(100%); */
 }
 
 #article-reply-area > .header h5 {
