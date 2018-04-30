@@ -234,9 +234,55 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
     margin: 0;
 }
 
+#board-info h1>a {
+    position: absolute;
+    left: 19px;
+    padding-left: 60px;
+    width: 150px;
+    height: 50px;
+    z-index: 1;
+}
+
 #board-info #board-info-profile-img {
     border-radius: 5em;
     border: 1px solid #ffce31;
+    float: left !important;
+}
+
+#board-info #board-info-bottom {
+    padding-left: 55px;
+}
+
+#board-info #board-info-bottom a {
+    z-index: 100;
+    position: relative;
+}
+
+#board-info #board-info-bottom a[href="/cocopopp671/profile"] {
+    display: none;
+}
+
+#board-info h1 {
+    border-bottom: 1px solid #ffce31;
+    height: 30px;
+    padding-left: 60px;
+}
+
+#board-info h1 .badge {
+    position: absolute;
+    right: 0px;
+    margin-right: 1em;
+    margin-top: 2.8em;
+    background-color: #ffce31;
+}
+
+#board-info #viewers-area {
+    color: #ffce31;
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    margin-right: 1em;
+    margin-top: 0.4em;
 }
 
 #board-info #viewers-area #viewers:before {
