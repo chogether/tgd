@@ -4,7 +4,7 @@
 ** platform : PC
 ** Sky Version
 ** Thanks to JEON (Woojeonging wooaena)
-** For The Seungdal, For The Horde
+** For The Seungdal
 */
 
 header #header-bar > .row,
@@ -75,13 +75,9 @@ header #header-bar > .row {
     z-index: 200;
 }
 
-header #header-bar a.dropdown-toggle {
-    display: inline-block;
+header #header-bar .fa {
     color: #fdc100;
-    text-decoration: none;
-    padding: 0.3em 0;
 }
-
 
 header #header-bar #header-top-notice strong.notice-badge {
     background: #ffce31;
