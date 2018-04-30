@@ -2,7 +2,7 @@
 ** platform : MOBILE
 ** Sky Version
 ** Thanks to JEON (Woojeonging wooaena)
-** For The Seungdal, For The Horde
+** For The Seungdal
 */
 
 #main-content, body, footer {
@@ -118,6 +118,7 @@ header > #header-area > #header-bar-link {
     background: #ffebac;
     max-height: 46px;
     max-block-size: 46px;
+    border-bottom: 0;
 }
 
 #board-info > a.board-right-menu {
@@ -125,6 +126,10 @@ header > #header-area > #header-bar-link {
     border: 0;
     vertical-align: middle;
     color: #fbb100;
+}
+
+#board-info a.board-right-menu[href="/cocopopp671/profile"] {
+    display: none;
 }
 
 #board-info .badge {
