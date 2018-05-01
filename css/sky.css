@@ -279,7 +279,6 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
 }
 
 #board-info h1>a.badge.badge-live:before {
-    font-size: 12px;
     font: normal normal normal 14px/1 FontAwesome;
     content: "\f03d ";
 }
