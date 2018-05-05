@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="ko"><head><style type="text/css" id="alertifyCSS">.alertify-logs>*{padding:12px 24px;color:#fff;box-shadow:0 2px 5px 0 rgba(0,0,0,.2);border-radius:1px}.alertify-logs>*,.alertify-logs>.default{background:rgba(0,0,0,.8)}.alertify-logs>.error{background:rgba(244,67,54,.8)}.alertify-logs>.success{background:rgba(76,175,80,.9)}.alertify{position:fixed;background-color:rgba(0,0,0,.3);left:0;right:0;top:0;bottom:0;width:100%;height:100%;z-index:1}.alertify.hide{opacity:0;pointer-events:none}.alertify,.alertify.show{box-sizing:border-box;transition:all .33s cubic-bezier(.25,.8,.25,1)}.alertify,.alertify *{box-sizing:border-box}.alertify .dialog{padding:12px}.alertify .alert,.alertify .dialog{width:100%;margin:0 auto;position:relative;top:50%;transform:translateY(-50%)}.alertify .alert>*,.alertify .dialog>*{width:400px;max-width:95%;margin:0 auto;text-align:center;padding:12px;background:#fff;box-shadow:0 2px 4px -1px rgba(0,0,0,.14),0 4px 5px 0 rgba(0,0,0,.098),0 1px 10px 0 rgba(0,0,0,.084)}.alertify .alert .msg,.alertify .dialog .msg{padding:12px;margin-bottom:12px;margin:0;text-align:left}.alertify .alert input:not(.form-control),.alertify .dialog input:not(.form-control){margin-bottom:15px;width:100%;font-size:100%;padding:12px}.alertify .alert input:not(.form-control):focus,.alertify .dialog input:not(.form-control):focus{outline-offset:-2px}.alertify .alert nav,.alertify .dialog nav{text-align:right}.alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button),.alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button){background:transparent;box-sizing:border-box;color:rgba(0,0,0,.87);position:relative;outline:0;border:0;display:inline-block;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center;padding:0 6px;margin:6px 8px;line-height:36px;min-height:36px;white-space:nowrap;min-width:88px;text-align:center;text-transform:uppercase;font-size:14px;text-decoration:none;cursor:pointer;border:1px solid transparent;border-radius:2px}.alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):active,.alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):hover,.alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):active,.alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):hover{background-color:rgba(0,0,0,.05)}.alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):focus,.alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):focus{border:1px solid rgba(0,0,0,.1)}.alertify .alert nav button.btn,.alertify .dialog nav button.btn{margin:6px 4px}.alertify-logs{position:fixed;z-index:1}.alertify-logs.bottom,.alertify-logs:not(.top){bottom:16px}.alertify-logs.left,.alertify-logs:not(.right){left:16px}.alertify-logs.left>*,.alertify-logs:not(.right)>*{float:left;transform:translateZ(0);height:auto}.alertify-logs.left>.show,.alertify-logs:not(.right)>.show{left:0}.alertify-logs.left>*,.alertify-logs.left>.hide,.alertify-logs:not(.right)>*,.alertify-logs:not(.right)>.hide{left:-110%}.alertify-logs.right{right:16px}.alertify-logs.right>*{float:right;transform:translateZ(0)}.alertify-logs.right>.show{right:0;opacity:1}.alertify-logs.right>*,.alertify-logs.right>.hide{right:-110%;opacity:0}.alertify-logs.top{top:0}.alertify-logs>*{box-sizing:border-box;transition:all .4s cubic-bezier(.25,.8,.25,1);position:relative;clear:both;backface-visibility:hidden;perspective:1000;max-height:0;margin:0;padding:0;overflow:hidden;opacity:0;pointer-events:none}.alertify-logs>.show{margin-top:12px;opacity:1;max-height:1000px;padding:12px;pointer-events:auto}</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>하느르 - 오늘 쉬었다갈게요. - 트게더</title>
+    <meta name="description" content="앙빅때문인가.. . . &nbsp;2틀 연속 빡집중했더니 컨디션도 초큼&nbsp;안좋은데 생리통까지 겹쳤네요 8ㅅ8    오늘 에너지재충전(당류섭취)하고 내일 돌아올께요!  아 이모티콘 좀 추가변경 되었는데 컨셉이 겹치는 hanuruTT 콘은 기존25달러 구독에 있던 hanururabbit 리메이크 버전으로 (surrenderbunny 참고!) 변경예정입니다.늘게더는 예전에 건드려놓고 손놓고 있었는데 루다가 이번에 별게더 개편하면서 저한테 자문을 구하는 바람에 저도 조금 수정하다가 잠들었습니다. 당분간 계속 테스팅되고있으니 기괴한 늘게더모습에 너무 놀라지마시길...">
+    <meta name="author" content="하느르">
+    <meta name="robots" content="index, follow">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://tgd.kr/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://tgd.kr/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://tgd.kr/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://tgd.kr/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://tgd.kr/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://tgd.kr/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://tgd.kr/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://tgd.kr/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://tgd.kr/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://tgd.kr/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://tgd.kr/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://tgd.kr/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://tgd.kr/favicon-16x16.png">
+    <link rel="manifest" href="https://tgd.kr/manifest.json">
+    <meta name="msapplication-TileColor" content="#6441a5">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#6441a5">
+    <link rel="stylesheet" type="text/css" href="https://tgd.kr/assets/compiled/5c475821bf335992d224a558d4132de6.min.css?1524995003">
+    <style type="text/css">
+
+    @font-face{font-family:'FontAwesome';src:url('../tgd/assets/fontawesome-webfont.eot?v=4.7.0');src:url('../tgd/assets/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('../tgd/assets/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('../tgd/assets/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('../tgd/assets/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('../tgd/assets/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+
+
+    :root {
+        --main-color:#ffe1e9;
+        --sub-color:#ff5984;
+        --third-color:#ff4071;
+    }
+
+    #main-content, body, footer {
+        background: #ebeae8 !important;
+    }
+
+    header {
+        border-bottom-color: var(--sub-color) !important;
+        background: var(--main-color);
+    }
+
+    header > #header-area > a > h1 {
+        width: 90px;
+        background-image : url(http://blogfiles.naver.net/MjAxODA0MTJfMTUg/MDAxNTIzNTA2MjY5Njky.6wTa0kqEW4hGgaoZ93w6Jtqdnzj64YqItmImX1eQOrUg.qShPFm-6EbGtPQow-4EA-X53FKWmlm-boB0HRWECeB8g.PNG.sang-eo/logo_new.png);
+        background-size: 90px 32px;
+    }
+
+    header > #header-area > #header-bar-link {
+        color: var(--sub-color);
+    }
+
+    #header-top-notice {
+        text-indent: -1000em;
+        padding: 1px;
+        height: 6px;
+    }
+
+    #header-top-notice strong.notice-badge {
+        background: var(--sub-color) !important;
+    }
+
+    #header-top-notice strong.notice-badge {
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: -2em;
+        opacity: 0;
+    }
+
+    #article-content-wrapper > .header {
+        background: var(--main-color) !important;
+        border-top: 2px solid var(--sub-color);
+    }
+
+    /* 게시글 리스트 블록 레이아웃 */
+    #article-list > .article-list-row.has-category.notice > .item > .list-header > strong {
+        width: 0;
+    }
+
+    #article-list > .article-list-row.notice {
+        background: #fef8ea !important;
+    }
+
+    #article-list > .article-list-row.notice > .item > a.list-title {
+        vertical-align: middle;
+    }
+
+    #article-list > .article-list-row.notice > .item > a.list-title > .title-value {
+        padding-left: 6px;
+    }
+
+    #article-list > .article-list-row.notice > .item > a.list-title > .list-writer {
+        height: 0 !important;
+        opacity: 0;
+        padding: 0;
+    }
+
+    #article-list > .article-list-row.notice > .item > .list-header {
+        width: 12px;
+    }
+
+    #article-list > .article-list-row > .item > span.a-badge {
+        width: 40px;
+    }
+
+    #article-list > .article-list-row > .item > a.list-title > .title-value {
+        max-width: 240px;
+    }
+
+    #article-list > .article-list-row > .item > .list-header > span {
+        background-color: var(--third-color) !important;
+    }
+
+    #article-list > .article-list-row > .item > .list-header > strong {
+        font-size: 0;
+        padding: 0;
+    }
+
+    /* 일반 게시글 리스트 블록 */
+    #article-list #article-list-category,
+    #article-list #article-list-category a {
+        background: var(--main-color) !important;
+    }
+
+    #article-list #article-list-category {
+        border-top: 3px solid var(--sub-color);
+    }
+
+    #article-list #article-list-category > a {
+        display: inline-block;
+        padding: 11px 16px;
+        background: #ffffff;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    #article-list #article-list-category > a:focus {
+        background: var(--main-color);
+    }
+
+    #article-list>.article-list-row.active {
+        background-color: var(--main-color) !important;
+    }
+
+    #board-info {
+        border-top: 4px solid var(--sub-color);
+        background: var(--main-color);
+        max-height: 46px;
+        max-block-size: 46px;
+        border-bottom: 0;
+    }
+
+    #board-info > a.board-right-menu {
+        max-height: 40px;
+        border: 0;
+        vertical-align: middle;
+        color: var(--third-color);
+    }
+
+    #board-info a.board-right-menu[href="/cocopopp671/profile"] {
+        display: none;
+    }
+
+    #board-info .badge {
+        background-color: var(--third-color);
+    }
+
+    #viewers-area {
+        color : rgba(255,64,113,0.7) !important
+    }
+
+    .btn-primary {
+        border: 0;
+        animation: infinite rainbowLinkBG 3s;
+    }
+
+    .pagination > .active > a, .pagination > .active > a:focus,
+    .pagination > .active > a:hover, .pagination > .active > span,
+    .pagination > .active > span:focus, .pagination > .active > span:hover {
+        background-color: var(--third-color);
+        border-color: var(--third-color);
+    }
+
+    .pagination > li > a, .pagination > li > span:hover {
+        color: var(--sub-color);
+    }
+
+    /* 댓글 작성 블록 */
+    #article-reply-area > .header h5 {
+        color: var(--third-color);
+    }
+
+    #article-reply-area #reply-real-area .reply > .reply-header {
+        background: var(--main-color) !important;
+    }
+
+    #article-reply-area #reply-best-area .reply > .reply-header {
+        background: var(--main-color);
+    }
+
+    #article-reply-area #reply-best-area .reply {
+        border: 1px solid #fdc100;
+    }
+
+    /* 상단 검색창 */
+    header > #header-search-bar #header-search-input {
+        border: 2px solid var(--sub-color);
+    }
+
+    header > #header-search-bar #header-search-btn {
+        color: var(--sub-color);
+    }
+
+    /* 사용한 키프레임 */
+    @keyframes rainbowLinkBG {
+        0% {
+            background-color: #ff2a2a;
+        }
+        15% {
+            background-color: #ff7a2a;
+        }
+        30% {
+            background-color: #ffc52a;
+        }
+        45% {
+            background-color: #43ff2a;
+        }
+        60% {
+            background-color: #2a89ff;
+        }
+        75% {
+            background-color: #202082;
+        }
+        90% {
+            background-color: #6b2aff;
+        }
+        100% {
+            background-color: #e82aff;
+        }
+    }
+
+    /* 좌측 네비게이터 */
+    nav#nav > .nav-header {
+        background: var(--third-color);
+    }
+    nav#nav>#nav-upper>#header-close-bar-link {
+        color: var(--third-color);
+    }
+
+    header > #header-area > #header-search-link {
+        color: var(--sub-color);
+    }
+
+    .article-list-row i.fa.fa-star {
+        animation: rotation 2s infinite;
+    }
+
+    .article-list-row:nth-child(even) i.fa.fa-star {
+        animation-delay: 1s;
+    }
+
+    @keyframes rotation {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    </style>
+    <script src="https://pagead2.googlesyndication.com/pagead/js/r20180430/r20180504/osd.js"></script><script src="https://pagead2.googlesyndication.com/pub-config/r20160913/ca-pub-5807968391783575.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-71349615-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <link rel="preload" href="https://adservice.google.co.kr/adsid/integrator.js?domain=tgd.kr" as="script"><script type="text/javascript" src="https://adservice.google.co.kr/adsid/integrator.js?domain=tgd.kr"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=tgd.kr" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=tgd.kr"></script></head>
+<body>
+<header>
+    <div id="header-search-bar" class="hide">
+        <form action="/search" method="get" id="header-search-form">
+            <a href="#" id="header-close-search-btn"><i class="fa fa-arrow-left"></i></a>
+            <input type="text" placeholder="트게더 검색" value="" id="header-search-input" name="q">
+            <button type="submit" id="header-search-btn"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+
+    <div id="header-area" class="">
+        <a id="header-bar-link" href="#"><i class="fa fa-bars"></i></a>
+        <a href="https://tgd.kr/"><h1>트게더</h1></a>
+        <a id="header-search-link" href="#"><i class="fa fa-search"></i></a>
+    </div>
+</header>
+
+<div id="header-top-notice" align="center"><strong class="notice-badge">광고</strong> <a href="https://www.twitch.tv/memil23" target="_blank">배린이 에란겔 투어중</a></div>
+
+<!-- <div class="row"><div class="col-xs-12"><div class="alert alert-info"><i class="fa fa-wrench"></i> 이미지 서버 작업 중으로 첨부된 이미지가 정상 표시되지 않을 수 있습니다.</div></div></div> -->
+
+<div id="nav-overlay" class="hide"></div>
+<nav id="nav" class="hide">
+    <div id="nav-upper">
+        <a href="#" id="header-close-bar-link"><i class="fa fa-bars"></i></a>
+        <div class="dropdown" id="userDropdownContainer">
+            <a href="#" class="dropdown-toggle" id="userDropdown" data-toggle="dropdown">
+                <span class="badge badge-pill badge-danger hide" id="notification-badge">0</span>
+                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/5f13f273-1a35-42bb-84dc-62d4ef21e9a6-profile_image-300x300.png" alt="" class="profile-img">
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                <li><a href="https://tgd.kr/notify/lists">새로운 알림 (<strong id="notification-badge-ea">0</strong>개)</a></li>
+                <li><a href="#"><img src="https://static-cdn.jtvnw.net/badges/v1/a295d31d-bded-4748-a76a-4c121cd3df54/1" align="absmiddle"> <strong>일해라절해라조강현</strong> <small>do_work_do_temple_gombo</small></a></li>
+                <li><a href="https://tgd.kr/member/point"><strong>1912</strong> 포인트</a></li>
+                <li class="divider"></li>
+                <li><a href="https://tgd.kr/member/config">설정</a></li>
+                <li><a href="https://tgd.kr/member/mylist">글 보관함</a></li>
+                <li><a href="https://tgd.kr/member/badge">아이콘 보관함</a></li>
+                <li><a href="https://tgd.kr/member/logout">로그아웃</a></li>
+            </ul>
+        </div>
+        <div class="dropdown" id="noteDropdownContainer">
+            <a href="https://tgd.kr/note/lists" class="dropdown-toggle">
+                <span class="badge badge-pill badge-danger hide" id="note-notification-badge">0</span>
+
+                <i class="fa fa-envelope-o"></i>
+            </a>
+        </div>
+    </div>
+    <div id="nav-upper-shortcut">
+        <div class="dropdown">
+            <a href="#" class="dropdown-toggle" id="latestDropdown" data-toggle="dropdown">
+                <i class="fa fa-clock-o"></i> 최근방문
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="latestDropdown" id="latestDropdownMenu"><li><a href="https://tgd.kr/hanururu">하느르</a></li><li><a href="https://tgd.kr/cocopopp671">초승달</a></li><li><a href="https://tgd.kr/hn950421">고말숙_</a></li><li><a href="https://tgd.kr/redtea">홍차</a></li><li><a href="https://tgd.kr/mooncrystalmeow">문수정</a></li><li><a href="https://tgd.kr/beyou0728">피유</a></li><li><a href="https://tgd.kr/nanajam777">우정잉</a></li><li><a href="https://tgd.kr/handongsuk">한동숙</a></li><li><a href="https://tgd.kr/funzinnu">Funzinnu</a></li><li><a href="https://tgd.kr/kerokero_">케로</a></li></ul>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="dropdown-toggle" id="favoriteDropdown" data-toggle="dropdown">
+                <i class="fa fa-star"></i> 즐겨찾기
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="favoriteDropdown" id="favoriteDropdownMenu">
+                <li><a href="#">1</a></li>
+                <li><a href="#">Another action</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="dropdown-toggle" id="playgroundDropdown" data-toggle="dropdown">
+                <i class="fa fa-smile-o"></i> 놀이터
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="playgroundDropdown">
+                <li><a href="https://tgd.kr/play/attendance">출석체크</a></li>
+                <li><a href="https://tgd.kr/play/ad">전광판</a></li>
+                <li><a href="https://tgd.kr/play/iconshop">아이콘샵</a></li>
+                <li><a href="https://tgd.kr/play/giveaway">포인트경품</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav-header">트게더 전체 메뉴</div>
+    <div class="nav-menu-area">
+        <div class="left">
+            <a class="nav-menu " href="https://tgd.kr/all">전체 글 보기</a>
+            <hr>
+            <a class="nav-menu " href="https://tgd.kr/pages/allboard">스트리머 게시판</a>
+            <a class="nav-menu " href="https://tgd.kr/clips/lists">핫클립</a>
+            <a class="nav-menu " href="https://tgd.kr/humor">웃긴 게시판</a>
+            <a class="nav-menu " href="https://tgd.kr/counsel">고민상담</a>
+            <a class="nav-menu " href="https://tgd.kr/pr">놀러와요</a>
+            <a class="nav-menu " href="https://tgd.kr/recruit">함께 일해요</a>
+        </div><div class="right">
+        <!-- <div class="spacer"></div> -->
+        <a class="nav-menu shortcut-link" data-shortcut="f" href="https://tgd.kr/fantasy">판타지리그</a>
+        <hr>
+        <a class="nav-menu " href="https://tgd.kr/qna">Q&amp;A</a>
+        <a class="nav-menu " href="https://tgd.kr/tip">방송 TIP</a>
+        <a class="nav-menu " href="https://tgd.kr/twitchnews">트위치 소식</a>
+        <hr>
+        <a class="nav-menu " href="https://tgd.kr/notice">공지사항</a>
+        <a class="nav-menu " href="https://tgd.kr/event">이벤트</a>
+        <a class="nav-menu " href="https://tgd.kr/suggestion">건의/신고</a>
+    </div>
+    </div>
+
+    <div class="nav-header">게임 게시판</div>
+    <div class="nav-menu-area">
+        <div class="left">
+            <a class="game nav-menu " href="https://tgd.kr/hearthstone"><img src="https://upload.tgd.kr/gameicon/hs.png" alt="" class="icon">하스스톤</a>
+            <a class="game nav-menu " href="https://tgd.kr/pubg"><img src="https://upload.tgd.kr/gameicon/pubg.jpg" alt="" class="icon">PUBG</a>
+            <a class="game nav-menu " href="https://tgd.kr/overwatch"><img src="https://upload.tgd.kr/gameicon/ow.png" alt="" class="icon">오버워치</a>
+        </div><div class="right">
+        <a class="game nav-menu " href="https://tgd.kr/lol"><img src="https://upload.tgd.kr/gameicon/lol.png" alt="" class="icon">LoL</a>
+        <a class="game nav-menu " href="https://tgd.kr/hots"><img src="https://upload.tgd.kr/gameicon/hots.png" alt="" class="icon">히어로즈</a>
+        <a class="game nav-menu " href="https://tgd.kr/etcgame"><img src="https://upload.tgd.kr/gameicon/etc.png" alt="" class="icon">기타게임</a>
+    </div>
+    </div>
+
+    <div class="nav-header">다른 곳으로 이동</div>
+    <div class="nav-menu-area">
+        <div class="left">
+            <a class="useful-links" href="https://twitch.tv" target="_blank">트위치</a>
+            <a class="useful-links" href="https://twip.kr" target="_blank">Twip</a>
+        </div><div class="right">
+        <a class="useful-links" href="http://link.twitch.tv/guidekr" target="_blank">스트리밍 가이드</a>
+    </div>
+    </div>
+
+    <div class="nav-header"><a href="https://tgd.kr/schedule" class="schedule-link" data-type="header">트위치 스케줄</a></div>
+    <div id="nav-schedule-list">
+        <a href="https://www.twitch.tv/overwatchleague_kr" target="_blank" class="schedule-link" data-type="https://www.twitch.tv/overwatchleague_kr">
+            <div class="time">
+                08:00 -
+            </div>
+            <div class="title">오버워치 리그</div>
+            <span class="icons">
+                  </span>
+        </a>
+        <a href="https://www.twitch.tv/ogn_pss" target="_blank" class="schedule-link" data-type="https://www.twitch.tv/ogn_pss">
+            <div class="time">
+                18:00 -
+            </div>
+            <div class="title">PSS University</div>
+            <span class="icons">
+                  </span>
+        </a>
+        <a href="https://www.twitch.tv/lck_korea" target="_blank" class="schedule-link" data-type="https://www.twitch.tv/lck_korea">
+            <div class="time">
+                18:00 -
+            </div>
+            <div class="title">2018 LOL MSI</div>
+            <span class="icons">
+                  </span>
+        </a>
+    </div>
+    <a href="https://tgd.kr/schedule" class="schedule-more schedule-link" data-type="more">스케줄 더 보기 »</a>
+
+    <!-- hgc banner -->
+    <div id="mobile_menu_footer_banner" style="margin-top: 15px;">
+        <a href="https://tgd.kr/hgc"><img src="http://assets.mytwip.net/event/hgc2018/hgc2018_banner_mobile.png" alt=""></a>
+    </div>
+</nav>
+
+<div id="main-content">
+    <div class="frame"><div align="center" style="background:#fff;">
+        <!-- tgd_board_list_mobile_320x50 -->
+        <ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px" data-ad-client="ca-pub-5807968391783575" data-ad-slot="2664447824" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:50px;margin:0;padding:0;position:relative;visibility:visible;width:320px;background-color:transparent;"><ins id="aswift_0_anchor" style="display:block;border:none;height:50px;margin:0;padding:0;position:relative;visibility:visible;width:320px;background-color:transparent;"><iframe width="320" height="50" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;width:320px;height:50px;"></iframe></ins></ins></ins>
+    </div>
+
+
+        <div id="board-info" data-type="streamer" data-alias="hanururu" data-name="하느르">
+            <h1>
+                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/847f89e45ffbf1e1-profile_image-300x300.png" alt="" id="board-info-profile-img" class="img-rounded loaded" data-was-processed="true">
+                <script type="text/javascript">EMOTE_URL = '/assets/emotes/149414970.json';</script>
+                <a href="https://tgd.kr/hanururu">하느르</a>
+
+                <span class="badge badge-success">28위</span>
+
+                <span id="viewers-area" class=""><i class="fa fa-user"></i> <span id="viewers">11</span></span>
+            </h1>
+
+            <a class="board-right-menu" href="https://tgd.kr/clips?streamer_id=149414970" id="goClipBtn"><i class="fa fa-film"></i></a>
+            <a class="board-right-menu" target="_blank" href="https://tgd.kr//twitch.tv/hanururu"><i class="fa fa-twitch"></i></a>
+            <a class="board-right-menu" href="https://tgd.kr/hanururu/profile"><i class="fa fa-info-circle"></i></a>
+            <a class="board-right-menu" href="https://tgd.kr/hanururu/point"><i class="fa fa-money"></i></a>
+            <a class="board-right-menu" href="#" data-id="1144092" id="addFavoriteBtn" title="즐겨찾기에 추가">
+                <i class="fa fa-star"></i>
+            </a></div><div id="article-info">
+            <h2>
+                <span class="category" style="color:#545454">일정</span>
+                오늘 쉬었다갈게요.
+                <div id="article-info-writer">
+                    <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true"> <img src="https://static-cdn.jtvnw.net/chat-badges/broadcaster.png" alt="Broadcaster" title="Broadcaster" align="absmiddle" class="loaded" data-was-processed="true">  <span><strong>하느르</strong>님 </span>
+                </div>
+            </h2>
+
+            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/847f89e45ffbf1e1-profile_image-300x300.png" alt="" class="img-rounded article-profile-img loaded" data-was-processed="true">
+        </div>
+
+        <div id="article-content-wrapper">
+            <div class="header">
+        <span id="article-time">
+            <i class="fa fa-clock-o"></i>
+            <span title="2018-05-03 10:54:03" class="ago">2일 전</span>
+        </span>
+                <span id="article-views">
+            <i class="fa fa-eye"></i> 236        </span>
+                <span id="article-votes">
+            <i class="fa fa-heart"></i> 20        </span>
+                <span id="article-comment">
+            <i class="fa fa-commenting"></i> 13        </span>
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="article-content" class="fr-view" data-id="4191126" data-last-cpage="1"><p>앙빅때문인가.. . . &nbsp;2틀 연속 빡집중했더니 컨디션도 초큼&nbsp;안좋은데 생리통까지 겹쳤네요 8ㅅ8</p>
+
+                <p><br></p>
+
+                <p>오늘 에너지재충전<s>(당류섭취)</s>하고 내일 돌아올께요!</p>
+
+                <p><span>아 이모티콘 좀 추가변경 되었는데 컨셉이 겹치는 hanuruTT 콘은 기존25달러 구독에 있던 hanururabbit 리메이크 버전으로 (surrenderbunny 참고!) 변경예정입니다.늘게더는 예전에 건드려놓고 손놓고 있었는데 루다가 이번에 별게더 개편하면서 저한테 자문을 구하는 바람에 저도 조금 수정하다가 잠들었습니다. 당분간 계속 테스팅되고있으니 기괴한 늘게더모습에 너무 놀라지마시길...</span></p></div>
+
+            <div class="vote-area">
+                <button type="button" data-id="4191126" data-type="up" class="btn btn-outline-success vote-btn"><i class="fa fa-thumbs-up"></i> 추천 <span id="up">20</span></button>
+            </div>
+
+            <div class="footer">
+                <a href="https://tgd.kr/hanururu" class="btn btn-sm btn-default"><i class="fa fa-list"></i> 목록</a>
+                <a href="https://tgd.kr/board/report/4191126" class="btn btn-sm btn-outline-danger report-btn"><i class="fa fa-bell"></i> 신고</a>
+
+                <a href="https://tgd.kr/board/scrap/4191126" class="btn btn-sm btn-default pull-right mr-1 scrap-btn"><i class="fa fa-plus"></i> 스크랩</a>
+            </div>
+        </div>
+
+        <div id="article-reply-area" class="">
+            <div class="header">
+                <h5>
+                    <i class="fa fa-commenting"></i> 댓글 <span id="totalCommentCount">13</span>개 &nbsp; &nbsp; <a href="#lastc" id="lastc">▼</a>
+                </h5>
+            </div>
+
+            <div id="reply-best-area"></div>
+
+            <a href="#" id="viewReplyPrevPageBtn" class="pt-2 pb-2 hide">이전 댓글 더 보기</a>
+            <div id="reply-real-area"><div class="reply d-0" id="comment-4191137" data-id="4191137"><div class="reply-header"><img class="reply-writer-image img-circle loaded" data-src="https://static-cdn.jtvnw.net/jtv_user_pictures/696158d9-e25e-4caa-a1e5-332b8db50992-profile_image-300x300.png" src="https://static-cdn.jtvnw.net/jtv_user_pictures/696158d9-e25e-4caa-a1e5-332b8db50992-profile_image-300x300.png" width="48" height="48" data-was-processed="true"><div class="reply-writer logged"> PeterParkerHS</div><small class="code"></small><div class="reply-menu"><a href="https://tgd.kr/board/comment_vote" data-id="4191137" data-type="up" class="comment-vote-btn">좋아요</a><span class="middot">·</span><a href="#" class="re-reply-btn">대댓글</a><span class="middot">·</span><span class="time" title="2018-05-03 10:55:06">2일 전</span></div><div class="clearfix"></div></div><div class="reply-content"><p>넹넹 하느르님 늘게더 고치느라 고생하셨어요.</p>
+
+                <p>앙빅달리고 늘게더 고치고 잠 못주무셨을텐데 오늘 푹쉬시고 내일 뵈요</p></div></div><div class="reply d-0" id="comment-4191339" data-id="4191339"><div class="reply-header"><img class="reply-writer-image img-circle loaded" data-src="https://static-cdn.jtvnw.net/jtv_user_pictures/ea4744bb-cd4b-4443-8ce8-4d4bf238a2f8-profile_image-300x300.png" src="https://static-cdn.jtvnw.net/jtv_user_pictures/ea4744bb-cd4b-4443-8ce8-4d4bf238a2f8-profile_image-300x300.png" width="48" height="48" data-was-processed="true"><div class="reply-writer logged"><img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">  MioBooM</div><small class="code"></small><div class="reply-menu"><a href="https://tgd.kr/board/comment_vote" data-id="4191339" data-type="up" class="comment-vote-btn">좋아요</a><span class="middot">·</span><a href="#" class="re-reply-btn">대댓글</a><span class="middot">·</span><span class="time" title="2018-05-03 11:05:39">2일 전</span></div><div class="clearfix"></div></div><div class="reply-content"><p>푹 쉬세요</p></div></div><div class="reply d-0" id="comment-4191521" data-id="4191521"><div class="reply-header"><img class="reply-writer-image img-circle loaded" data-src="https://static-cdn.jtvnw.net/jtv_user_pictures/10f9c1a3-a6a7-42de-b259-ce286d5d8b90-profile_image-300x300.png" src="https://static-cdn.jtvnw.net/jtv_user_pictures/10f9c1a3-a6a7-42de-b259-ce286d5d8b90-profile_image-300x300.png" width="48" height="48" data-was-processed="true"><div class="reply-writer logged"><img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">  세이빙</div><small class="code"></small><div class="reply-menu"><a href="https://tgd.kr/board/comment_vote" data-id="4191521" data-type="up" class="comment-vote-btn">좋아요</a><span class="middot">·</span><a href="#" class="re-reply-btn">대댓글</a><span class="middot">·</span><span class="time" title="2018-05-03 11:13:31">2일 전</span></div><div class="clearfix"></div></div><div class="reply-content"><p>새벽까지 있다가 빤스런 했지만,&nbsp;여태껏 고생하셨으니 푹 쉬세요</p></div></div><div class="reply d-0" id="comment-4192130" data-id="4192130"><div class="reply-header"><img class="reply-writer-image img-circle loaded" data-src="https://static-cdn.jtvnw.net/jtv_user_pictures/640e6007-aa9b-40a6-bb0c-b3efb5515dc0-profile_image-300x300.png" src="https://static-cdn.jtvnw.net/jtv_user_pictures/640e6007-aa9b-40a6-bb0c-b3efb5515dc0-profile_image-300x300.png" width="48" height="48" data-was-processed="true"><div class="reply-writer logged"><img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">  탱구네일</div><small class="code"></small><div class="reply-menu"><a href="https://tgd.kr/board/comment_vote" data-id="4192130" data-type="up" class="comment-vote-btn">좋아요</a><span class="middot">·</span><a href="#" class="re-reply-btn">대댓글</a><span class="middot">·</span><span class="time" title="2018-05-03 11:38:11">2일 전</span></div><div class="clearfix"></div></div><div class="reply-content"><p>맘껏 먹고 쉬고 낼 봐요</p></div></div><div class="reply d-0" id="comment-4192890" data-id="4192890"><div class="reply-header"><img class="reply-writer-image img-circle loaded" data-src="https://static-cdn.jtvnw.net/jtv_user_pictures/729cadfc-f90e-4429-af32-1935cb222a8a-profile_image-300x300.png" src="https://static-cdn.jtvnw.net/jtv_user_pictures/729cadfc-f90e-4429-af32-1935cb222a8a-profile_image-300x300.png" width="48" height="48" data-was-processed="true"><div class="reply-writer logged"> 드림냥</div><small class="code"></small><div class="reply-menu"><a href="https://tgd.kr/board/comment_vote" data-id="4192890" data-type="up" class="comment-vote-btn">좋아요</a><span class="middot">·</span><a href="#" class="re-reply-btn">대댓글</a><span class="middot">·</span><span class="time" title="2018-05-03 12:22:47">2일 전</span></div><div class="clearfix"></div></div><div class="reply-content"><p>아이고 하느룽님 푹쉬시고 아프지마시구 빡집중하느라몸상하게하는 앙빅당신은 도덕책... 내일봐요!</p></div></div><div class="reply d-0" id="comment-4193325" data-id="4193325"><div class="reply-header"><img class="reply-writer-image img-circle loaded" data-src="https://static-cdn.jtvnw.net/jtv_user_pictures/376d3373-0bf4-4660-a67e-cc5969b24e00-profile_image-300x300.png" src="https://static-cdn.jtvnw.net/jtv_user_pictures/376d3373-0bf4-4660-a67e-cc5969b24e00-profile_image-300x300.png" width="48" height="48" data-was-processed="true"><div class="reply-writer logged"><img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">  흑곰탱이</div><small class="code"></small><div class="reply-menu"><a href="https://tgd.kr/board/comment_vote" data-id="4193325" data-type="up" class="comment-vote-btn">좋아요</a><span class="middot">·</span><a href="#" class="re-reply-btn">대댓글</a><span class="middot">·</span><span class="time" title="2018-05-03 12:46:14">2일 전</span></div><div class="clearfix"></div></div><div class="reply-content"><p><span class="fr-emoticon fr-deletable"><img src="https://static-cdn.jtvnw.net/emoticons/v1/86/1.0" alt="BibleThump" class="loaded" data-was-processed="true"></span>&nbsp;낼바여</p></div></div><div class="reply d-0" id="comment-4193558" data-id="4193558"><div class="reply-header"><img class="reply-writer-image img-circle loaded" data-src="https://static-cdn.jtvnw.net/jtv_user_pictures/8cc6e7ff-bc0b-4684-8691-d9a45829845d-profile_image-300x300.png" src="https://static-cdn.jtvnw.net/jtv_user_pictures/8cc6e7ff-bc0b-4684-8691-d9a45829845d-profile_image-300x300.png" width="48" height="48" data-was-processed="true"><div class="reply-writer logged"><img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">  반스트</div><small class="code"></small><div class="reply-menu"><a href="https://tgd.kr/board/comment_vote" data-id="4193558" data-type="up" class="comment-vote-btn">좋아요</a><span class="middot">·</span><a href="#" class="re-reply-btn">대댓글</a><span class="middot">·</span><span class="time" title="2018-05-03 13:00:32">2일 전</span></div><div class="clearfix"></div></div><div class="reply-content"><p>푹 쉬셔요..</p></div></div><div class="reply d-0" id="comment-4194324" data-id="4194324"><div class="reply-header"><img class="reply-writer-image img-circle loaded" data-src="https://static-cdn.jtvnw.net/jtv_user_pictures/a219d6e4-f3fa-49cc-8b03-d517eee94b02-profile_image-300x300.png" src="https://static-cdn.jtvnw.net/jtv_user_pictures/a219d6e4-f3fa-49cc-8b03-d517eee94b02-profile_image-300x300.png" width="48" height="48" data-was-processed="true"><div class="reply-writer logged"> 눈탱이팬더</div><small class="code"></small><div class="reply-menu"><a href="https://tgd.kr/board/comment_vote" data-id="4194324" data-type="up" class="comment-vote-btn">좋아요</a><span class="middot">·</span><a href="#" class="re-reply-btn">대댓글</a><span class="middot">·</span><span class="time" title="2018-05-03 13:44:24">2일 전</span></div><div class="clearfix"></div></div><div class="reply-content"><p>푹쉬세요~~</p></div></div><div class="reply d-0" id="comment-4195038" data-id="4195038"><div class="reply-header"><img class="reply-writer-image img-circle loaded" data-src="https://static-cdn.jtvnw.net/jtv_user_pictures/2db96627-540c-4731-b209-7a73aa1eabee-profile_image-300x300.png" src="https://static-cdn.jtvnw.net/jtv_user_pictures/2db96627-540c-4731-b209-7a73aa1eabee-profile_image-300x300.png" width="48" height="48" data-was-processed="true"><div class="reply-writer logged"> 닉네임이없다</div><small class="code"></small><div class="reply-menu"><a href="https://tgd.kr/board/comment_vote" data-id="4195038" data-type="up" class="comment-vote-btn">좋아요</a><span class="middot">·</span><a href="#" class="re-reply-btn">대댓글</a><span class="middot">·</span><span class="time" title="2018-05-03 14:31:19">2일 전</span></div><div class="clearfix"></div></div><div class="reply-content"><p>푹 쉬세요 surrenderBunny </p></div></div><div class="reply d-0" id="comment-4195049" data-id="4195049"><div class="reply-header"><img class="reply-writer-image img-circle loaded" data-src="https://static-cdn.jtvnw.net/jtv_user_pictures/17fe5b0b-5ee7-4be2-ace8-d54ce66c6a9c-profile_image-300x300.jpg" src="https://static-cdn.jtvnw.net/jtv_user_pictures/17fe5b0b-5ee7-4be2-ace8-d54ce66c6a9c-profile_image-300x300.jpg" width="48" height="48" data-was-processed="true"><div class="reply-writer logged"> 김벨파</div><small class="code"></small><div class="reply-menu"><a href="https://tgd.kr/board/comment_vote" data-id="4195049" data-type="up" class="comment-vote-btn">좋아요</a><span class="middot">·</span><a href="#" class="re-reply-btn">대댓글</a><span class="middot">·</span><span class="time" title="2018-05-03 14:32:16">2일 전</span></div><div class="clearfix"></div></div><div class="reply-content"><p>건강한 모습으로 볼 수 있길 바라겠습니다..! 힘! &gt;_&lt;</p></div></div><div class="reply d-0" id="comment-4198265" data-id="4198265"><div class="reply-header"><img class="reply-writer-image img-circle loaded" data-src="https://static-cdn.jtvnw.net/user-default-pictures/0ecbb6c3-fecb-4016-8115-aa467b7c36ed-profile_image-300x300.jpg" src="https://static-cdn.jtvnw.net/user-default-pictures/0ecbb6c3-fecb-4016-8115-aa467b7c36ed-profile_image-300x300.jpg" width="48" height="48" data-was-processed="true"><div class="reply-writer logged"> 발떵이</div><small class="code"></small><div class="reply-menu"><a href="https://tgd.kr/board/comment_vote" data-id="4198265" data-type="up" class="comment-vote-btn">좋아요</a><span class="middot">·</span><a href="#" class="re-reply-btn">대댓글</a><span class="middot">·</span><span class="time" title="2018-05-03 17:31:33">2일 전</span></div><div class="clearfix"></div></div><div class="reply-content"><p>몸 상하지마시고 푹 쉬세요 ㅇ-ㅇ</p></div></div><div class="reply d-0" id="comment-4199217" data-id="4199217"><div class="reply-header"><img class="reply-writer-image img-circle loaded" data-src="https://static-cdn.jtvnw.net/jtv_user_pictures/7cf8c3b7e4e3aa9e-profile_image-300x300.png" src="https://static-cdn.jtvnw.net/jtv_user_pictures/7cf8c3b7e4e3aa9e-profile_image-300x300.png" width="48" height="48" data-was-processed="true"><div class="reply-writer logged"> 야호랭이</div><small class="code"></small><div class="reply-menu"><a href="https://tgd.kr/board/comment_vote" data-id="4199217" data-type="up" class="comment-vote-btn">좋아요</a><span class="middot">·</span><a href="#" class="re-reply-btn">대댓글</a><span class="middot">·</span><span class="time" title="2018-05-03 18:21:04">2일 전</span></div><div class="clearfix"></div></div><div class="reply-content"><p>쉬고 다음에봐영</p></div></div><div class="reply d-0" id="comment-4202380" data-id="4202380"><div class="reply-header"><img class="reply-writer-image img-circle loaded" data-src="https://static-cdn.jtvnw.net/jtv_user_pictures/733ca109-b813-4358-995e-d4a465ac3a9b-profile_image-300x300.png" src="https://static-cdn.jtvnw.net/jtv_user_pictures/733ca109-b813-4358-995e-d4a465ac3a9b-profile_image-300x300.png" width="48" height="48" data-was-processed="true"><div class="reply-writer logged"><img src="https://static-cdn.jtvnw.net/badges/v1/98f5feab-7ae2-42f8-94cb-f7f1bda9a066/1" align="absmiddle" class="loaded" data-was-processed="true">  무기력함</div><small class="code"></small><div class="reply-menu"><a href="https://tgd.kr/board/comment_vote" data-id="4202380" data-type="up" class="comment-vote-btn">좋아요</a><span class="middot">·</span><a href="#" class="re-reply-btn">대댓글</a><span class="middot">·</span><span class="time" title="2018-05-03 20:45:58">2일 전</span></div><div class="clearfix"></div></div><div class="reply-content"><p>푹쉬고 낼봐여^^</p></div></div></div>
+            <a name="lastc"></a>
+
+            <a href="#" id="loadNewCommentsBtn" class="btn btn-sm btn-info hide" style="margin: 0 15px;">
+                <i class="fa fa-refresh"></i> <span>새 댓글</span>
+            </a>
+
+            <div id="comment-write-form-area">
+                <form action="/board/comment_write/4191126" method="post" id="comment-write-form" class="mt-2">
+                    <input type="hidden" id="commentParentId" name="parent_id" value="0">
+
+                    <div id="commentWriteInfoForm" class="hide mb-2">
+                        <div class="left"><input type="text" class="form-control" id="commentNickname" maxlength="10" name="nickname" value="" placeholder="닉네임"></div><div class="right"><input type="password" class="form-control" id="commentPassword" maxlength="20" name="password" value="" placeholder="비밀번호"></div>
+                    </div>
+                    <div class="fr-box fr-ltr fr-basic fr-top" role="application"><div class="fr-toolbar fr-ltr fr-desktop fr-top fr-basic fr-sticky-off" style="top: 0px;"><button id="html-1" type="button" tabindex="-1" role="button" aria-pressed="false" title="코드보기" class="fr-command fr-btn fr-btn-font_awesome" data-cmd="html"><i class="fa fa-code" aria-hidden="true"></i><span class="fr-sr-only">코드보기</span></button><div class="fr-separator fr-vs" role="separator" aria-orientation="vertical"></div><button id="emoticons-1" type="button" tabindex="-1" role="button" title="이모티콘" class="fr-command fr-btn fr-btn-font_awesome" data-cmd="emoticons" data-popup="true"><i class="fa fa-smile-o" aria-hidden="true"></i><span class="fr-sr-only">이모티콘</span></button><button id="bold-1" type="button" tabindex="-1" role="button" aria-pressed="false" title="굵게 (⌘B)" class="fr-command fr-btn fr-btn-font_awesome" data-cmd="bold"><i class="fa fa-bold" aria-hidden="true"></i><span class="fr-sr-only">굵게</span></button><button id="italic-1" type="button" tabindex="-1" role="button" aria-pressed="false" title="기울임꼴 (⌘I)" class="fr-command fr-btn fr-btn-font_awesome" data-cmd="italic"><i class="fa fa-italic" aria-hidden="true"></i><span class="fr-sr-only">기울임꼴</span></button><button id="underline-1" type="button" tabindex="-1" role="button" aria-pressed="false" title="밑줄 (⌘U)" class="fr-command fr-btn fr-btn-font_awesome" data-cmd="underline"><i class="fa fa-underline" aria-hidden="true"></i><span class="fr-sr-only">밑줄</span></button><button id="strikeThrough-1" type="button" tabindex="-1" role="button" aria-pressed="false" title="취소선 (⌘S)" class="fr-command fr-btn fr-btn-font_awesome" data-cmd="strikeThrough"><i class="fa fa-strikethrough" aria-hidden="true"></i><span class="fr-sr-only">취소선</span></button><button id="color-1" type="button" tabindex="-1" role="button" title="색상" class="fr-command fr-btn fr-btn-font_awesome" data-cmd="color" data-popup="true"><i class="fa fa-tint" aria-hidden="true"></i><span class="fr-sr-only">색상</span></button><div class="fr-separator fr-vs" role="separator" aria-orientation="vertical"></div><button id="insertLink-1" type="button" tabindex="-1" role="button" title="링크 삽입 (⌘K)" class="fr-command fr-btn fr-btn-font_awesome" data-cmd="insertLink" data-popup="true"><i class="fa fa-link" aria-hidden="true"></i><span class="fr-sr-only">링크 삽입</span></button><button id="insertImage-1" type="button" tabindex="-1" role="button" title="이미지 삽입 (⌘P)" class="fr-command fr-btn fr-btn-font_awesome" data-cmd="insertImage" data-popup="true"><i class="fa fa-image" aria-hidden="true"></i><span class="fr-sr-only">이미지 삽입</span></button><button id="insertVideo-1" type="button" tabindex="-1" role="button" title="동영상 삽입" class="fr-command fr-btn fr-btn-font_awesome" data-cmd="insertVideo" data-popup="true"><i class="fa fa-video-camera" aria-hidden="true"></i><span class="fr-sr-only">동영상 삽입</span></button><button id="insertTable-1" type="button" tabindex="-1" role="button" title="표 삽입" class="fr-command fr-btn fr-btn-font_awesome" data-cmd="insertTable" data-popup="true"><i class="fa fa-table" aria-hidden="true"></i><span class="fr-sr-only">표 삽입</span></button><div class="fr-separator fr-vs" role="separator" aria-orientation="vertical"></div><button id="formatOL-1" type="button" tabindex="-1" role="button" title="숫자리스트" class="fr-command fr-btn fr-btn-font_awesome" data-cmd="formatOL"><i class="fa fa-list-ol" aria-hidden="true"></i><span class="fr-sr-only">숫자리스트</span></button><button id="formatUL-1" type="button" tabindex="-1" role="button" title="점 리스트" class="fr-command fr-btn fr-btn-font_awesome" data-cmd="formatUL"><i class="fa fa-list-ul" aria-hidden="true"></i><span class="fr-sr-only">점 리스트</span></button></div><div class="fr-sticky-dummy" style="height: 43px;"></div><div class="fr-wrapper show-placeholder" dir="ltr" style="height: 100px; overflow: auto;"><div class="fr-element fr-view" dir="ltr" contenteditable="true" style="min-height: 100px;" aria-disabled="false" spellcheck="true"><p><br></p></div><span class="fr-placeholder" style="font-size: 14px; line-height: 20px; margin-top: 0px; padding-top: 16px; padding-left: 16px; margin-left: 0px; padding-right: 16px; margin-right: 0px; text-align: start;">내용을 작성해주세요.</span></div></div><textarea name="content" id="commentContent" rows="4" class="form-control" placeholder="내용을 입력해주세요." style="display: none;"></textarea>
+
+                    <div id="comment-write-button-area">
+                        <button class="btn btn-default pull-left hide btn-sm" type="submit" tabindex="-1" id="btnRereplyCancelBtn">취소</button>
+                        <button class="btn btn-primary pull-right btn-sm" type="submit" accesskey="s" id="writeCommentBtn"><i class="fa fa-pencil"></i> 댓글 쓰기</button>
+                        <div class="clearfix"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div style="background:#fff;    background: #fff;
+    padding: 20px 0;
+    margin-top: -14px;
+    text-align: center;">
+            <div style="padding:0 20px 15px;">
+                <div style="border-top: 1px solid #eee; margin-top: 15px; padding-top: 20px; position: relative;">
+                    <div style="position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 24px;
+    background: #fff;
+    font-size: .8em;
+    color: #ccc;
+    margin-top: -10px;
+    text-align: center;">광고</div>
+                    <ins class="adsbygoogle" style="display: inline-block; width: 320px; height: 50px;" data-ad-client="ca-pub-5807968391783575" data-ad-slot="5331132449" data-ad-format="auto" data-adsbygoogle-status="done"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:50px;margin:0;padding:0;position:relative;visibility:visible;width:320px;background-color:transparent;"><ins id="aswift_1_anchor" style="display:block;border:none;height:50px;margin:0;padding:0;position:relative;visibility:visible;width:320px;background-color:transparent;"><iframe width="320" height="50" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;width:320px;height:50px;"></iframe></ins></ins></ins>
+                </div>
+            </div>
+        </div><div id="article-list">
+            <div id="article-list-category">
+                <a class="nav-link active" href="https://tgd.kr/hanururu"><i class="fa fa-home"></i></a><a style="color:#545454" class="nav-link " href="https://tgd.kr/hanururu?category=1146845">공지</a><a style="color:#545454" class="nav-link " href="https://tgd.kr/hanururu?category=2224955">일정</a><a style="color:#545454" class="nav-link " href="https://tgd.kr/hanururu?category=1146848">잡담</a><a style="color:#545454" class="nav-link " href="https://tgd.kr/hanururu?category=1147699">후기</a><a style="color:#545454" class="nav-link " href="https://tgd.kr/hanururu?category=2236749">캡쳐/움짤/팬아트</a><a style="color:#545454" class="nav-link " href="https://tgd.kr/hanururu?category=1146850">게임정보</a><a style="color:#545454" class="nav-link " href="https://tgd.kr/hanururu?category=1877711">프로필그림 신청</a><a style="color:#545454" class="nav-link " href="https://tgd.kr/hanururu?category=2338034">일상공유</a><a style="color:#545454" class="nav-link " href="https://tgd.kr/hanururu?category=3445850">이벤트</a><a style="color:#545454" class="nav-link " href="https://tgd.kr/hanururu?category=3889461">노래추천</a></div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4197160">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="국전가는중인데" href="https://tgd.kr/4197160" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">국전가는중인데</span>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                                    PeterParkerHS              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">잡담</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4197083">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="분홍빛 늘게더!" href="https://tgd.kr/4197083" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">분홍빛 늘게더!</span>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   뮤더              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">잡담</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4196724">
+                <div class="item">
+                    <div class="list-header v2">
+                        <span>2</span>      </div>
+                    <a title="다키스톤 하시는분들 계심까" href="https://tgd.kr/4196724" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">다키스톤 하시는분들 계심까</span>
+                        <small class="comment-count">[4]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   흑곰탱이              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">잡담</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4194942">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="아스카짱 ...; 발목 다이죠부?" href="https://tgd.kr/4194942" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">아스카짱 ...; 발목 다이죠부?</span>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   탱구네일              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">잡담</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4194873">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="아 늘게더가 팩폭한다" href="https://tgd.kr/4194873" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-picture-o"></i></span>
+                        <span class="title-value">아 늘게더가 팩폭한다</span>
+                        <small class="comment-count">[1]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   반스트              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">잡담</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4194826">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="트게더 무엇" href="https://tgd.kr/4194826" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-picture-o"></i></span>
+                        <span class="title-value">트게더 무엇</span>
+                        <small class="comment-count">[1]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                                    풍월량내사랑              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">잡담</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4194733">
+                <div class="item">
+                    <div class="list-header v16">
+                        <span>16</span>      </div>
+                    <a title="1년구독.." href="https://tgd.kr/4194733" style="color:#000000" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-star"></i></span>
+                        <span class="title-value">1년구독..</span>
+                        <small class="comment-count">[10]</small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true"> <img src="https://static-cdn.jtvnw.net/chat-badges/broadcaster.png" alt="Broadcaster" title="Broadcaster" align="absmiddle" class="loaded" data-was-processed="true">                   하느르              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">잡담</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4193797">
+                <div class="item">
+                    <div class="list-header v3">
+                        <span>3</span>      </div>
+                    <a title="1개월 구독권 질문" href="https://tgd.kr/4193797" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">1개월 구독권 질문</span>
+                        <small class="comment-count">[2]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   탱구네일              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">잡담</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4193436">
+                <div class="item">
+                    <div class="list-header v2">
+                        <span>2</span>      </div>
+                    <a title="This War of Mine" href="https://tgd.kr/4193436" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">This War of Mine</span>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/47728e29-d704-4488-b1ff-902a3c8d7343/1" align="absmiddle" class="loaded" data-was-processed="true">                   야만도시              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">게임정보</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4192250">
+                <div class="item">
+                    <div class="list-header v2">
+                        <span>2</span>      </div>
+                    <a title="5/2 방송후기" href="https://tgd.kr/4192250" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">5/2 방송후기</span>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                                    탈리온              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">후기</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  active" id="article-list-row-4191126">
+                <div class="item">
+                    <div class="list-header v20">
+                        »      </div>
+                    <a title="오늘 쉬었다갈게요." href="https://tgd.kr/4191126" style="font-weight:bold;color:#000000" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-star"></i></span>
+                        <span class="title-value">오늘 쉬었다갈게요.</span>
+                        <small class="comment-count">[13]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true"> <img src="https://static-cdn.jtvnw.net/chat-badges/broadcaster.png" alt="Broadcaster" title="Broadcaster" align="absmiddle" class="loaded" data-was-processed="true">                   하느르              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">일정</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4189303">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="하느르님 늘게더 피드백입니다." href="https://tgd.kr/4189303" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-picture-o"></i></span>
+                        <span class="title-value">하느르님 늘게더 피드백입니다.</span>
+                        <small class="comment-count">[7]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                                    PeterParkerHS              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">잡담</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4189003">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="늘게더 실시간 변화 후기" href="https://tgd.kr/4189003" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">늘게더 실시간 변화 후기</span>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                                    PeterParkerHS              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">후기</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4188214">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="5월 2일 방송 후기" href="https://tgd.kr/4188214" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-picture-o"></i></span>
+                        <span class="title-value">5월 2일 방송 후기</span>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                                    베인컨스              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">후기</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4187806">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="앙빅5성 넘모축하드려요!" href="https://tgd.kr/4187806" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">앙빅5성 넘모축하드려요!</span>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                                    드림냥              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">잡담</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4185715">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="음.. 하느르님 프로필그림 신청 다른그림으로해도될까요?" href="https://tgd.kr/4185715" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-picture-o"></i></span>
+                        <span class="title-value">음.. 하느르님 프로필그림 신청 다른그림으로해도될까요?</span>
+                        <small class="comment-count">[2]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                                    PeterParkerHS              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">프로필그림 신청</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4183129">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="5월 2일 방송 후기" href="https://tgd.kr/4183129" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">5월 2일 방송 후기</span>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                                    갈리프레이              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">후기</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4183023">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="앙못찐 탈출 좋아" href="https://tgd.kr/4183023" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-picture-o"></i></span>
+                        <span class="title-value">앙못찐 탈출 좋아</span>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   고파팡              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">잡담</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4182923">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="5/2 뱅숑후기" href="https://tgd.kr/4182923" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-picture-o"></i></span>
+                        <span class="title-value">5/2 뱅숑후기</span>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   고파팡              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">후기</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4182654">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="05/02 캡쳐" href="https://tgd.kr/4182654" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-picture-o"></i></span>
+                        <span class="title-value">05/02 캡쳐</span>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   세이빙              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">캡쳐/움짤/팬아트</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4181337">
+                <div class="item">
+                    <div class="list-header v1">
+                        <span>1</span>      </div>
+                    <a title="05/02 방송후기" href="https://tgd.kr/4181337" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">05/02 방송후기</span>
+                        <small class="comment-count">[1]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                                    눈탱이팬더              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">후기</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4181141">
+                <div class="item">
+                    <div class="list-header v3">
+                        <span>3</span>      </div>
+                    <a title="앙빅 클리어 축하합니다" href="https://tgd.kr/4181141" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">앙빅 클리어 축하합니다</span>
+                        <small class="comment-count">[2]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   흑곰탱이              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">후기</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4181055">
+                <div class="item">
+                    <div class="list-header v2">
+                        <span>2</span>      </div>
+                    <a title="5/2 방송 후기 및 일기" href="https://tgd.kr/4181055" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-picture-o"></i></span>
+                        <span class="title-value">5/2 방송 후기 및 일기</span>
+                        <small class="comment-count">[1]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   MioBooM              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">후기</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4181045">
+                <div class="item">
+                    <div class="list-header v2">
+                        <span>2</span>      </div>
+                    <a title="05/02 후기" href="https://tgd.kr/4181045" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">05/02 후기</span>
+                        <small class="comment-count">[1]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   세이빙              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">후기</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4180696">
+                <div class="item">
+                    <div class="list-header v9">
+                        <span>9</span>      </div>
+                    <a title="프로필그림 받아가세요 (눈탱이팬더,빵떡집알바생,탱구네일,흑곰탱이,화공너구리)" href="https://tgd.kr/4180696" style="color:#000000" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-picture-o"></i></span>
+                        <span class="title-value">프로필그림 받아가세요 (눈탱이팬더,빵떡집알바생,탱구네일,흑곰탱이,화공너구리)</span>
+                        <small class="comment-count">[9]</small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true"> <img src="https://static-cdn.jtvnw.net/chat-badges/broadcaster.png" alt="Broadcaster" title="Broadcaster" align="absmiddle" class="loaded" data-was-processed="true">                   하느르              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">프로필그림 신청</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-03      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4180322">
+                <div class="item">
+                    <div class="list-header v2">
+                        <span>2</span>      </div>
+                    <a title="데드스페이스 고인물 플레이" href="https://tgd.kr/4180322" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">데드스페이스 고인물 플레이</span>
+                        <small class="comment-count">[2]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                                    PeterParkerHS              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">잡담</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-02      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4180127">
+                <div class="item">
+                    <div class="list-header v3">
+                        <span>3</span>      </div>
+                    <a title="5/2 캡쳐" href="https://tgd.kr/4180127" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-picture-o"></i></span>
+                        <span class="title-value">5/2 캡쳐</span>
+                        <small class="comment-count">[1]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   탱구네일              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">캡쳐/움짤/팬아트</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-02      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4179839">
+                <div class="item">
+                    <div class="list-header v3">
+                        <span>3</span>      </div>
+                    <a title="5/2 후기" href="https://tgd.kr/4179839" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-picture-o"></i></span>
+                        <span class="title-value">5/2 후기</span>
+                        <small class="comment-count">[3]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                                    PeterParkerHS              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">후기</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-02      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4179678">
+                <div class="item">
+                    <div class="list-header v3">
+                        <span>3</span>      </div>
+                    <a title="5/2 앙빅 5성 박살 후기" href="https://tgd.kr/4179678" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-picture-o"></i></span>
+                        <span class="title-value">5/2 앙빅 5성 박살 후기</span>
+                        <small class="comment-count">[2]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   탱구네일              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">후기</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-02      </div>
+                </div>
+            </div>
+
+            <div class="article-list-row has-category  " id="article-list-row-4179611">
+                <div class="item">
+                    <div class="list-header v3">
+                        <span>3</span>      </div>
+                    <a title="와 이제 앙빅 안봐도 된다!!" href="https://tgd.kr/4179611" style="" class="list-title">
+
+                        <span class="a-badge"><i class="fa fa-commenting-o"></i></span>
+                        <span class="title-value">와 이제 앙빅 안봐도 된다!!</span>
+                        <small class="comment-count">[1]</small>
+                        <small class="favo"><i class="fa fa-heart"></i></small>
+
+                        <div class="list-writer  logged">
+                            <span>
+                  <img src="https://static-cdn.jtvnw.net/badges/v1/12bb5227-856c-4b01-9ecc-30b3e71f1149/1" align="absmiddle" class="loaded" data-was-processed="true">                   반스트              </span>
+
+                            <div class="list-category"><span class="category" style="color:#545454">후기</span></div>
+                        </div>
+                    </a>
+                    <div class="list-time">
+                        05-02      </div>
+                </div>
+            </div>
+
+
+            <div class="pagination-area">
+                <ul class="pagination"><li><a href="https://tgd.kr/hanururu/page/1?" data-ci-pagination-page="1" rel="prev">&lt;</a></li><li><a href="https://tgd.kr/hanururu/page/1?" data-ci-pagination-page="1" rel="start">1</a></li><li class="disabled"></li><li class="active"><a href="#">2<span class="sr-only"></span></a></li><li><a href="https://tgd.kr/hanururu/page/3" data-ci-pagination-page="3">3</a></li><li><a href="https://tgd.kr/hanururu/page/4" data-ci-pagination-page="4">4</a></li><li><a href="https://tgd.kr/hanururu/page/5" data-ci-pagination-page="5">5</a></li><li><a href="https://tgd.kr/hanururu/page/3" data-ci-pagination-page="3" rel="next">&gt;</a></li></ul>    </div>
+
+            <div id="article-list-menu">
+                <a href="https://tgd.kr/hanururu?filter_mode=best" class="btn square btn-default best"><i class="fa fa-star"></i> 인기글</a>
+                <a href="https://tgd.kr/board/write/hanururu" class="btn square btn-primary write"><i class="fa fa-pencil"></i> 글 쓰기</a>
+            </div>
+
+            <div class="pagination-area">
+                <form class="input-group" method="get" action="/hanururu" id="boardSearchForm">
+                    <input type="hidden" name="search_type" value="title">
+                    <span class="input-group-btn">
+              <button type="button" class="btn square btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span id="search-type-desc">제목</span> <span class="caret"></span></button>
+              <div class="dropdown-menu">
+                  <li><a href="#" data-value="title">제목</a></li>
+                  <li><a href="#" data-value="titlecont">제목+내용</a></li>
+                  <li><a href="#" data-value="nickname">닉네임</a></li>
+              </div>
+          </span>
+                    <input type="text" name="search_term" class="form-control" placeholder="검색어" value="">
+                    <span class="input-group-btn">
+              <button class="btn square btn-default" type="submit"><i class="fa fa-search"></i></button>
+          </span>
+                </form>
+            </div>
+        </div></div>    </div>
+
+<div align="center">
+    <!-- tgd_mobile_bottom -->
+    <ins class="adsbygoogle" style="display:inline-block;width:320px;height:100px" data-ad-client="ca-pub-5807968391783575" data-ad-slot="3100253366"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+<footer>
+    <div class="container">
+        <span>© 2017-2018 트게더<br>
+          트게더는 Twitch에서 운영하는 사이트가 아닙니다.<br><br>
+          <a href="https://tgd.kr/?platform=pc" id="switch-platform-link">PC버전으로 전환하기</a></span>
+    </div>
+</footer>
+
+<a href="#" id="movetotop"><img src="/assets/images/move_to_top.png" alt=""></a>
+<script type="text/javascript">var AD = [{"content":"\ud3ec\ud2b8\ub098\uc774\ud2b8 \uc194\ub85c \ubc29\uc1a1 \uc794\uc794\ud558\uac8c","link":"https:\/\/www.twitch.tv\/enfax"},{"content":"\ud558\uaf2c \uc2a4\ud2b8\ub9ac\uba38\uac00 \ub808\uc778\ubcf4\uc6b0\uc2dd\uc2a4 \uc2dc\ucc38 \uc9c4\ud589\uc911 \uac19\uc774 \ucc38\uc804\ud558\uc790!!!","link":"https:\/\/www.twitch.tv\/unityline9870"},{"content":"\uc9ec\ud0c0\ub2d8 \uc544\uc9c1 \ud56d\uc544\ub9ac \uc548\uc774\uc2e0\uac00\uc694?","link":""},{"content":"\ubc30\ub9b0\uc774 \uc5d0\ub780\uac94 \ud22c\uc5b4\uc911","link":"https:\/\/www.twitch.tv\/memil23"},{"content":"\uadc0\ub18d 6\uc77c\ucc28 \ubd80\ub18d\uc774 \uafc8\uc778 \uc544\uac00\uc528\uc758 \ub18d\uc0ac \ubc29\uc1a1 - \uace0\uad6c\ub9c8\uc758 \uba85\ubcf5\uc744 \ube4c\uc5b4\uc8fc\uc138\uc694","link":"https:\/\/www.twitch.tv\/wlswnwlswn"}];</script>
+<script type="text/javascript" src="/assets/compiled/0a18972031b025305aa595c7f8b932f3.min.js?1524993405"></script>
+<script type="text/javascript" src="/assets/compiled/6be2b2a725cef53f702cdc32b0778a97.min.js?1524993238"></script>
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+<iframe id="google_osd_static_frame_8515205876066" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe></body></html>
