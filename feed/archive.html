@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>초승달 피드 아카이브</title>
+    <meta property="og:site_name" content="Twitch">
+    <meta property="fb:app_id" content="161273083968709">
+    <meta property="twitter:site" content="@twitch">
+    <meta property="og:title" content="초승달 - 피드 아카이브">
+    <meta property="og:url" content="https://www.twitch.tv/cocopopp671">
+    <meta property="og:description" content="호곡 오랜만에 보는 느낌이군요 ">
+    <meta property="og:type" content="video.other">
+    <meta property="og:image"
+          content="https://static-cdn.jtvnw.net/jtv_user_pictures/375a0708-19f3-42cd-b03a-5bbe52a79ba7-profile_image-300x300.jpg">
+    <meta property="og:video"
+          content="http://player.twitch.tv/?channel=cocopopp671&amp;player=facebook&amp;autoplay=true">
+    <meta property="og:video:secure_url"
+          content="https://player.twitch.tv/?channel=cocopopp671&amp;player=facebook&amp;autoplay=true">
+    <meta property="og:width" content="620">
+    <meta property="og:height" content="378">
+    <meta property="og:video:type" content="text/html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image"
+          content="https://static-cdn.jtvnw.net/jtv_user_pictures/375a0708-19f3-42cd-b03a-5bbe52a79ba7-profile_image-300x300.jpg">
+    <meta property="al:ios:url" content="twitch://stream/cocopopp671">
+    <meta property="al:ios:app_store_id" content="id460177396">
+    <meta property="al:ios:app_name" content="Twitch">
+    <meta property="al:android:package" content="tv.twitch.android.app">
+    <meta property="al:android:app_name" content="Twitch">
+    <meta name="twitter:app:name:googleplay" content="Twitch">
+    <meta name="twitter:app:id:googleplay" content="tv.twitch.android.app">
+    <meta name="twitter:app:name:iphone" content="Twitch">
+    <meta name="twitter:app:id:iphone" content="id460177396">
+    <meta name="twitter:app:url:iphone" content="twitch://stream/cocopopp671">
+    <meta name="twitter:app:name:ipad" content="Twitch">
+    <meta name="twitter:app:id:ipad" content="id460177396">
+    <meta name="twitter:app:url:ipad" content="twitch://stream/cocopopp671">
+    <link rel="icon" href="https://chogether.github.io/tgd/images/badge.png">
+    <link rel="dns-prefetch" href="https://api.twitch.tv/">
+    <link rel="dns-prefetch" href="https://gql.twitch.tv/">
+    <link rel="dns-prefetch" href="https://cvp.twitch.tv/">
+    <link rel="dns-prefetch" href="https://irc-ws.chat.twitch.tv/">
+    <link rel="dns-prefetch" href="https://passport.twitch.tv/">
+    <link rel="dns-prefetch" href="https://player.twitch.tv/">
+    <link rel="dns-prefetch" href="https://pubsub-edge.twitch.tv/">
+    <link rel="dns-prefetch" href="https://static-cdn.jtvnw.net/">
+    <link rel="dns-prefetch" href="https://static.twitchcdn.net/">
+    <link rel="preconnect" href="https://api.twitch.tv/">
+    <link rel="preconnect" href="https://gql.twitch.tv/">
+    <link rel="preconnect" href="https://player.twitch.tv/">
+    <link rel="preconnect" href="https://static-cdn.jtvnw.net/">
+    <link rel="preconnect" href="https://static.twitchcdn.net/">
+
+    <script src="https://chogether.github.io/hearthstone/css/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/tgd/feed/style.css">
+    <style type="text/css">
+    body { padding:1rem; }
+    </style>
+    <script>
+        $(function(){
+
+            const oncomplete = function () {
+                $('a').on('click', function(e){
+                    e.preventDefault();
+                });
+
+                $('a[data-a-target=pulse-post-link] .tw-tooltip-wrapper').each(function(){
+                    const date = $(this).find('div.tw-tooltip').html();
+                    const desc = $(this).find('p').html();
+
+                    $(this).find('p').html(date);
+                    $(this).find('div.tw-tooltip').html(desc);
+                });
+            };
+
+            $("#feed-2018").load("2018.html", function() {
+                $("#feed-2017").load("2017.html", oncomplete);
+            });
+
+        });
+    </script>
+</head>
+<body style="overflow: scroll;">
+<div class="channel-page__feed-container tw-flex-grow-1 tw-flex-shrink-2 tw-md-pd-r-2 tw-mg-b-2">
+    <div class="tw-full-height">
+        <div class="">
+            <div id="feed-2018"></div>
+            <div id="feed-2017"></div>
+        </div>
+        <div class="scrollable-trigger__wrapper">
+            <div class="scrollable-trigger__trigger-area scrollable-trigger__trigger-area--up"
+                 style="height: 100px;"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
