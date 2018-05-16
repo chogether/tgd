@@ -52,38 +52,63 @@
     <link rel="preconnect" href="https://static.twitchcdn.net/">
 
     <script src="https://chogether.github.io/hearthstone/css/jquery-3.3.1.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/tgd/feed/style.css">
+    <link rel="stylesheet" type="text/css" href="https://chogether.github.io/tgd/feed/style.css">
     <style type="text/css">
-    body { padding:1rem; }
+    body { padding:1rem; overflow: auto !important;}
     </style>
     <script>
-        $(function(){
-
-            const oncomplete = function () {
-                $('a').on('click', function(e){
-                    e.preventDefault();
-                });
-
-                $('a[data-a-target=pulse-post-link] .tw-tooltip-wrapper').each(function(){
-                    const date = $(this).find('div.tw-tooltip').html();
-                    const desc = $(this).find('p').html();
-
-                    $(this).find('p').html(date);
-                    $(this).find('div.tw-tooltip').html(desc);
-                });
-            };
-
-            $("#feed-2018").load("2018.html", function() {
-                $("#feed-2017").load("2017.html", oncomplete);
+        function loadResults() {
+            console.log('loadResults');
+            var result = "";
+            for (var i = 0; i < 10; i++) {
+                result += "<li>Result " + i + "</li>";
+            }
+            $.ajax({
+                url: "2018.html",
+                type: "post",
+                data: {
+                    html: result,
+                    delay: 0.1
+                },
+                beforeSend: function() {
+                    $("#feed-2018").after($("<li class='loading'>Loading...</li>").fadeIn('slow')).data("loading", true);
+                },
+                success: function(data) {
+                    var $results = $("#feed-2018");
+                    $(".loading").fadeOut('fast', function() {
+                        $(this).remove();
+                    });
+                    var $data = $(data);
+                    $data.hide();
+                    $results.append($data);
+                    $data.fadeIn();
+                    $results.removeData("loading");
+                }
             });
+        }
 
+        $(function() {
+            loadResults();
+
+            $(document).scroll(function() {
+                console.log('scroll');
+                var $this = $(this);
+                var $results = $("#feed-2018");
+
+                if (!$results.data("loading")) {
+
+                    if ($this.scrollTop() > $results.height() * 0.9) {
+                        loadResults();
+                    }
+                }
+            });
         });
     </script>
 </head>
-<body style="overflow: scroll;">
+<body>
 <div class="channel-page__feed-container tw-flex-grow-1 tw-flex-shrink-2 tw-md-pd-r-2 tw-mg-b-2">
     <div class="tw-full-height">
-        <div class="">
+        <div class="scrollable">
             <div id="feed-2018"></div>
             <div id="feed-2017"></div>
         </div>
@@ -93,5 +118,6 @@
         </div>
     </div>
 </div>
+
 </body>
 </html>
