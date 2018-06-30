@@ -157,16 +157,31 @@ img[alt="DansGame"] {
     background-size: 32px 32px;
 }
 
-SwiftRage
-span[data-param1="DansGame"] img {
+span[data-param1="SwiftRage"] img {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanGood.png);
     width: 25px;
     padding-left: 25px;
     background-size: 25px 25px;
 }
 
-img[alt="DansGame"] {
+img[alt="SwiftRage"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanGood.png);
+    width: 32px;
+    height: 32px !important;
+    padding-left: 32px;
+    background-size: 32px 32px;
+}
+
+
+span[data-param1="PJSalt"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanMaple.png);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="PJSalt"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanMaple.png);
     width: 32px;
     height: 32px !important;
     padding-left: 32px;
