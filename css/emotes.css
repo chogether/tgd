@@ -7,14 +7,15 @@
     height: 25px;
 }
 
-span[data-param1="JKanStyle"] img {
+span[data-param1*="JKanStyle"] img {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanTrail.png);
     width: 25px;
     padding-left: 25px;
     background-size: 25px 25px;
 }
 
-img[alt="JKanStyle"] {
+img[alt*="JKanStyle"],
+#article-content-wrapper #article-content img[alt="JKanStyle"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanTrail.png);
     width: 32px;
     height: 32px !important;
@@ -29,7 +30,8 @@ span[data-param1="OptimizePrime"] img {
     background-size: 25px 25px;
 }
 
-img[alt="OptimizePrime"] {
+img[alt="OptimizePrime"],
+#article-content-wrapper #article-content img[alt="OptimizePrime"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanSad.png);
     width: 32px;
     height: 32px !important;
@@ -44,7 +46,8 @@ span[data-param1="StoneLightning"] img {
     background-size: 25px 25px;
 }
 
-img[alt="StoneLightning"] {
+img[alt="StoneLightning"],
+#article-content-wrapper #article-content img[alt="StoneLightning"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanLight.png);
     width: 32px;
     height: 32px !important;
@@ -59,7 +62,8 @@ span[data-param1="TheRinger"] img {
     background-size: 25px 25px;
 }
 
-img[alt="TheRinger"] {
+img[alt="TheRinger"],
+#article-content-wrapper #article-content img[alt="TheRinger"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanLevel.png);
     width: 32px;
     height: 32px !important;
@@ -74,7 +78,8 @@ span[data-param1="RedCoat"] img {
     background-size: 25px 25px;
 }
 
-img[alt="RedCoat"] {
+img[alt="RedCoat"],
+#article-content-wrapper #article-content img[alt="RedCoat"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanSorry.png);
     width: 32px;
     height: 32px !important;
@@ -89,7 +94,8 @@ span[data-param1="Kappa"] img {
     background-size: 25px 25px;
 }
 
-img[alt="Kappa"] {
+img[alt="Kappa"],
+#article-content-wrapper #article-content img[alt="Kappa"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanPray.png);
     width: 32px;
     height: 32px !important;
@@ -104,7 +110,8 @@ span[data-param1="JonCarnage"] img {
     background-size: 25px 25px;
 }
 
-img[alt="JonCarnage"] {
+img[alt="JonCarnage"],
+#article-content-wrapper #article-content img[alt="JonCarnage"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanPray2.png);
     width: 32px;
     height: 32px !important;
@@ -119,7 +126,8 @@ span[data-param1="BCWarrior"] img {
     background-size: 25px 25px;
 }
 
-img[alt="BCWarrior"] {
+img[alt="BCWarrior"],
+#article-content-wrapper #article-content img[alt="BCWarrior"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanWiki.png);
     width: 32px;
     height: 32px !important;
@@ -134,7 +142,8 @@ span[data-param1="GingerPower"] img {
     background-size: 25px 25px;
 }
 
-img[alt="GingerPower"] {
+img[alt="GingerPower"],
+#article-content-wrapper #article-content img[alt="GingerPower"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanFact.png);
     width: 32px;
     height: 32px !important;
@@ -149,7 +158,8 @@ span[data-param1="DansGame"] img {
     background-size: 25px 25px;
 }
 
-img[alt="DansGame"] {
+img[alt="DansGame"],
+#article-content-wrapper #article-content img[alt="DansGame"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanGgomul.png);
     width: 32px;
     height: 32px !important;
@@ -164,7 +174,8 @@ span[data-param1="SwiftRage"] img {
     background-size: 25px 25px;
 }
 
-img[alt="SwiftRage"] {
+img[alt="SwiftRage"],
+#article-content-wrapper #article-content img[alt="SwiftRage"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanGood.png);
     width: 32px;
     height: 32px !important;
@@ -180,7 +191,8 @@ span[data-param1="PJSalt"] img {
     background-size: 25px 25px;
 }
 
-img[alt="PJSalt"] {
+img[alt="PJSalt"],
+#article-content-wrapper #article-content img[alt="PJSalt"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanMaple.png);
     width: 32px;
     height: 32px !important;
