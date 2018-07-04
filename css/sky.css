@@ -244,17 +244,17 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
 }
 
 #board-info #board-info-profile-img {
-    /* border-radius: 50%; */
-    border: 2px solid #ffce31;
+    border-radius: 50%;
+    border: 3px solid #ffce31;
     float: left !important;
     position: absolute;
-    left: 10px;
-    top: -5px;
-    width: 64px;
-    height: 64px;
-    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/a9279b21-3020-499b-8bc1-e34d86c9420e-profile_image-300x300.jpg) no-repeat -2px 0px;
+    left: 5px;
+    top: -10px;
+    width: 66px;
+    height: 70px;
+    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/a9279b21-3020-499b-8bc1-e34d86c9420e-profile_image-300x300.jpg) no-repeat -6px 0px;
     padding-left: 64px;
-    background-size: 75px;
+    background-size: 85px;
     box-shadow: 0px 1px 1px rgba(0,0,0,0.5);
 }
 
