@@ -1,4 +1,6 @@
 @import url("https://chogether.github.io/tgd/css/notice.css");
+@import url("https://chogether.github.io/tgd/css/emotes.css");
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 
 /*
 ** platform : PC
@@ -233,20 +235,31 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
 #board-info h1>a[href='/cocopopp671'] {
     position: absolute;
     left: 19px;
-    padding-left: 60px;
+    padding-left: 70px;
     width: 150px;
     height: 50px;
     z-index: 1;
+    font-family: 'NanumSquareRound', sans-serif;
+    font-weight: bold;
 }
 
 #board-info #board-info-profile-img {
-    border-radius: 5em;
-    border: 1px solid #ffce31;
+    border-radius: 50%;
+    border: 3px solid #ffce31;
     float: left !important;
+    position: absolute;
+    left: 5px;
+    top: -10px;
+    width: 66px;
+    height: 70px;
+    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/a9279b21-3020-499b-8bc1-e34d86c9420e-profile_image-300x300.jpg) no-repeat -6px 0px;
+    padding-left: 64px;
+    background-size: 85px;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.5);
 }
 
 #board-info #board-info-bottom {
-    padding-left: 55px;
+    padding-left: 65px;
 }
 
 #board-info #board-info-bottom a {
@@ -274,7 +287,7 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
 }
 
 #board-info h1>a.badge.badge-live {
-    margin-left: 75px;
+    margin-left: 80px;
     font-size: 0px;
 }
 
