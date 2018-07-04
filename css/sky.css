@@ -245,7 +245,7 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
 
 #board-info #board-info-profile-img {
     /* border-radius: 50%; */
-    border: 3px solid #ffce31;
+    border: 2px solid #ffce31;
     float: left !important;
     position: absolute;
     left: 10px;
