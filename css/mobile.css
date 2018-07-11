@@ -11,6 +11,10 @@
     background: #ebeae8 !important;
 }
 
+#main-content > .frame > div {
+  min-height: 10px;
+}
+
 header {
     border-bottom-color: #ffce31 !important;
     background: radial-gradient(ellipse at bottom, rgb(100,190,255), rgb(0, 90, 167));
