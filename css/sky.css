@@ -409,7 +409,7 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
 }
 
 html {
-    background: linear-gradient(to bottom, rgb(0, 80, 157), rgb(229,227,205));
+    background: linear-gradient(to bottom, #00509D 0%, #8583be 80%, #eab0d1 100%);
     height: auto !important;
 }
 
