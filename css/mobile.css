@@ -123,6 +123,26 @@ header > #header-area > #header-bar-link {
     border-bottom: 0;
 }
 
+#board-info > h1 >#board-info-profile-img {
+    float: left;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/a9279b21-3020-499b-8bc1-e34d86c9420e-profile_image-300x300.jpg) no-repeat -10px 0px;
+    padding-left: 54px;
+    background-size: 85px;
+    border: 3px solid #ffce31;
+    border-radius: 50%;
+    margin-top:-30px;
+}
+
+#board-info > h1 > a:nth-of-type(1) {
+  padding-left: 63px;
+  width: 150px;
+  height: 50px;
+  z-index: 1;
+}
+
 #board-info > a.board-right-menu {
     max-height: 40px;
     border: 0;
@@ -294,7 +314,7 @@ header > #header-area > #header-search-link {
   }
   50% {
     color: #ffce31;
-    opacity:0.8;
+    opacity:0.22;
   }
 }
 
