@@ -1,6 +1,5 @@
 @import url("https://chogether.github.io/tgd/css/notice.css");
 @import url("https://chogether.github.io/tgd/css/emotes.css");
-@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 
 /*
 ** platform : PC
@@ -233,7 +232,6 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
     width: 150px;
     height: 50px;
     z-index: 1;
-    font-family: 'NanumSquareRound', sans-serif;
 }
 
 #board-info #board-info-profile-img {
