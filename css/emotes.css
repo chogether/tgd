@@ -199,3 +199,100 @@ img[alt="PJSalt"],
     padding-left: 32px;
     background-size: 32px 32px;
 }
+
+span[data-param1="KevinTurtle"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanDurotan.png);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="KevinTurtle"],
+#article-content-wrapper #article-content img[alt="KevinTurtle"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanDurotan.png);
+    width: 32px;
+    height: 32px !important;
+    padding-left: 32px;
+    background-size: 32px 32px;
+}
+
+/* GIF */
+span[data-param1="HotPokket"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanDGC.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="HotPokket"],
+#article-content-wrapper #article-content img[alt="HotPokket"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanDGC.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+
+span[data-param1="FailFish"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanKKK.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="FailFish"],
+#article-content-wrapper #article-content img[alt="FailFish"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanKKK.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+
+span[data-param1="DAESuppy"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanSDSB.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="DAESuppy"],
+#article-content-wrapper #article-content img[alt="DAESuppy"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanSDSB.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+
+span[data-param1="WholeWheat"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanSquid.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="WholeWheat"],
+#article-content-wrapper #article-content img[alt="WholeWheat"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanSquid.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+
+span[data-param1="ThunBeast"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanOK.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="ThunBeast"],
+#article-content-wrapper #article-content img[alt="ThunBeast"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanOK.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
