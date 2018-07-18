@@ -7,14 +7,14 @@
     height: 25px;
 }
 
-span[data-param1*="JKanStyle"] img {
+span[data-param1="JKanStyle"] img {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanTrail.png);
     width: 25px;
     padding-left: 25px;
     background-size: 25px 25px;
 }
 
-img[alt*="JKanStyle"],
+img[alt="JKanStyle"],
 #article-content-wrapper #article-content img[alt="JKanStyle"] {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanTrail.png);
     width: 32px;
