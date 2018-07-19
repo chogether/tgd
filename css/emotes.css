@@ -296,3 +296,99 @@ img[alt="ThunBeast"],
     padding-left: 50px;
     background-size: 50px 50px;
 }
+
+span[data-param1="TF2John"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanDance.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="TF2John"],
+#article-content-wrapper #article-content img[alt="TF2John"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanDance.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+
+span[data-param1="Keepo"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanMCena.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="Keepo"],
+#article-content-wrapper #article-content img[alt="Keepo"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanMCena.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+
+span[data-param1="BigBrother"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanY.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="BigBrother"],
+#article-content-wrapper #article-content img[alt="BigBrother"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanY.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+
+span[data-param1="SoBayed"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanNo.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="SoBayed"],
+#article-content-wrapper #article-content img[alt="SoBayed"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanNo.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+
+span[data-param1="PeoplesChamp"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanNo.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="PeoplesChamp"],
+#article-content-wrapper #article-content img[alt="PeoplesChamp"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanNo2.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+
+span[data-param1="GrammarKing"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanNo.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="GrammarKing"],
+#article-content-wrapper #article-content img[alt="GrammarKing"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanNo3.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
