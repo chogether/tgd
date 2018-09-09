@@ -162,6 +162,11 @@ header > #header-area > #header-bar-link {
   background-color: #fbb100;
 }
 
+#board-info h1 .badge-success,
+#board-info h1 .badge-default {
+    display: none;
+}
+
 #viewers-area {
   color : rgba(251,177,0,0.7) !important
 }
