@@ -269,6 +269,7 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
 
 #board-info h1 .badge-success,
 #board-info h1 .badge-default {
+    display: none;
     position: absolute;
     right: 0px;
     margin-right: 1em;
