@@ -8,6 +8,18 @@
 ** For The Seungdal
 */
 
+/* holiday event */
+header .container:nth-child(1) .col-xs-8:before {
+    background: url(https://chogether.github.io/tgd/images/cs.png) no-repeat;
+    background-position: center -2px;
+    background-size: auto 80px;
+    display: block;
+    width: 400px;
+    height: 65px;
+    position: absolute;
+    content:'';
+}
+
 header #header-bar > .row,
 #main .menu-wrapper,
 #main #main-content > div.frame {
@@ -313,7 +325,7 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
 
 #board-info #viewers-area .fa-user:before {
     color: rgba(10, 59, 84, 0);
-    content: url("https://chogether.github.io/tgd/images/badge.png");
+    content: url("https://static-cdn.jtvnw.net/badges/v1/e5a393a3-f10f-43db-87cb-87226f565f28/1");
 }
 
 #article-list #article-list-menu > .btn.best {
