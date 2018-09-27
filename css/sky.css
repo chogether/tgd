@@ -9,7 +9,7 @@
 */
 
 /* holiday event */
-header .container:nth-child(1) .col-xs-8:before {
+/* header .container:nth-child(1) .col-xs-8:before {
     background: url(https://chogether.github.io/tgd/images/cs.png) no-repeat;
     background-position: center -2px;
     background-size: auto 80px;
@@ -18,7 +18,7 @@ header .container:nth-child(1) .col-xs-8:before {
     height: 65px;
     position: absolute;
     content:'';
-}
+} */
 
 header #header-bar > .row,
 #main .menu-wrapper,
