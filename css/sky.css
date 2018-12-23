@@ -260,6 +260,14 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
     background-size: 85px;
 }
 
+#board-info #board-info-profile-img:before {
+    content: " ";
+}
+
+#board-info #board-info-profile-img:after {
+    content: " ";
+}
+
 #board-info #board-info-bottom {
     padding-left: 65px;
 }
