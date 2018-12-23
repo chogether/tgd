@@ -33,16 +33,18 @@ header .container:nth-child(1) .col-xs-4:after {
     z-index: 1;
 } */
 
-/* header .container:nth-child(1) .col-xs-4:before {
+#board-info:before {
     background: url(https://chogether.github.io/tgd/images/xmas/xmas3.png) no-repeat;
-    background-position: center 9px;
+    background-position: 0px 0px;
     background-size: auto 50px;
+    background-color: #fff;
     display: block;
-    width: 1072px;
-    height: 62px;
+    width: 327px;
+    height: 50px;
     position: absolute;
     content:'';
-} */
+    left: 400px;
+}
 
 #header-menu-left {
     z-index:10;
@@ -320,6 +322,7 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
 #board-info h1>a.badge.badge-live {
     margin-left: 80px;
     font-size: 0px;
+    z-index: 100;
 }
 
 #board-info h1>a.badge.badge-live:before {
@@ -330,6 +333,7 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
 #board-info h1>a.badge.badge-live:after {
     font-size: 12px;
     content: " 생방송 보러가기";
+    z-index: 100;
 }
 
 #board-info #viewers-area {
