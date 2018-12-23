@@ -9,16 +9,44 @@
 */
 
 /* holiday event */
-/* header .container:nth-child(1) .col-xs-8:before {
-    background: url(https://chogether.github.io/tgd/images/cs.png) no-repeat;
-    background-position: center -2px;
-    background-size: auto 80px;
+header .container:nth-child(1) .col-xs-4:after {
+    background: url(https://chogether.github.io/tgd/images/xmas/xmas1.png) no-repeat;
+    background-position: 211px 46px;
+    background-size: auto 31px;
     display: block;
     width: 400px;
-    height: 65px;
+    height: 90px;
+    position: absolute;
+    content:'';
+    z-index: 1;
+}
+
+/* header .container:nth-child(1) .col-xs-8:before {
+    background: url(https://chogether.github.io/tgd/images/xmas/xmas2.png) no-repeat;
+    background-position: 360px -1px;
+    background-size: auto 108px;
+    display: block;
+    width: 3900px;
+    height: 187px;
+    position: absolute;
+    content:'';
+    z-index: 1;
+} */
+
+/* header .container:nth-child(1) .col-xs-4:before {
+    background: url(https://chogether.github.io/tgd/images/xmas/xmas3.png) no-repeat;
+    background-position: center 9px;
+    background-size: auto 50px;
+    display: block;
+    width: 1072px;
+    height: 62px;
     position: absolute;
     content:'';
 } */
+
+#header-menu-left {
+    z-index:10;
+}
 
 header #header-bar > .row,
 #main .menu-wrapper,
@@ -27,9 +55,9 @@ header #header-bar > .row,
 
 header .row > div:nth-child(1) > a {
     display: block;
-    width: 145px;
+    width: 175px;
     height: 50px;
-    background: url(https://chogether.github.io/tgd/images/logo-sky.png) no-repeat;
+    background: url(https://chogether.github.io/tgd/images/logo-sky-xmas.png) no-repeat;
 }
 
 header .row > div:nth-child(1) > a img {
@@ -235,14 +263,6 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
     overflow: inherit;
     padding: 5px 5px 0 8px;
     margin: 0;
-}
-
-#board-info:before {
-    content: " ";
-}
-
-#board-info:after {
-    content: " ";
 }
 
 #board-info h1>a[href='/cocopopp671'] {
