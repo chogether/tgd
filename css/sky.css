@@ -9,7 +9,7 @@
 */
 
 /* holiday event */
-header .container:nth-child(1) .col-xs-4:after {
+/* header .container:nth-child(1) .col-xs-4:after {
     background: url(https://chogether.github.io/tgd/images/xmas/xmas1.png) no-repeat;
     background-position: 211px 46px;
     background-size: auto 31px;
@@ -19,7 +19,7 @@ header .container:nth-child(1) .col-xs-4:after {
     position: absolute;
     content:'';
     z-index: 1;
-}
+} */
 
 /* header .container:nth-child(1) .col-xs-8:before {
     background: url(https://chogether.github.io/tgd/images/xmas/xmas2.png) no-repeat;
@@ -33,7 +33,7 @@ header .container:nth-child(1) .col-xs-4:after {
     z-index: 1;
 } */
 
-#board-info:before {
+/* #board-info:before {
     background: url(https://chogether.github.io/tgd/images/xmas/xmas3.png) no-repeat;
     background-position: 0px 0px;
     background-size: auto 50px;
@@ -44,7 +44,7 @@ header .container:nth-child(1) .col-xs-4:after {
     position: absolute;
     content:'';
     left: 400px;
-}
+} */
 
 #header-menu-left {
     z-index:10;
