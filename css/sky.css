@@ -21,17 +21,18 @@
     z-index: 1;
 } */
 
-/* header .container:nth-child(1) .col-xs-8:before {
-    background: url(https://chogether.github.io/tgd/images/xmas/xmas2.png) no-repeat;
-    background-position: 360px -1px;
-    background-size: auto 108px;
+header .container:nth-child(1) .col-xs-8:before {
+    background: url(https://chogether.github.io/tgd/images/goldpig2.png) no-repeat;
+    background-size: 200px 100px;
     display: block;
-    width: 3900px;
-    height: 187px;
+    width: 200px;
+    height: 100px;
+    top: 70px;
+    left: -570px;
     position: absolute;
     content:'';
     z-index: 1;
-} */
+}
 
 /* #board-info:before {
     background: url(https://chogether.github.io/tgd/images/xmas/xmas3.png) no-repeat;
