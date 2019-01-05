@@ -132,9 +132,9 @@ header > #header-area > #header-bar-link {
     position: absolute;
     width: 60px;
     height: 60px;
-    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/27c27c81-c19d-40a0-b438-cb85ee4fdd7b-profile_image-300x300.jpeg) no-repeat -5px -8px;
+    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/27c27c81-c19d-40a0-b438-cb85ee4fdd7b-profile_image-300x300.jpeg) no-repeat -3px -10px;
     padding-left: 54px;
-    background-size: 71px;
+    background-size: 69px;
     border: 3px solid #ffce31;
     border-radius: 50%;
     margin-top:-30px;
