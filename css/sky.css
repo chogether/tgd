@@ -21,7 +21,7 @@
     z-index: 1;
 } */
 
-header .container:nth-child(1) .col-xs-8:before {
+/* header .container:nth-child(1) .col-xs-8:before {
     background: url(https://chogether.github.io/tgd/images/goldpig2.png) no-repeat;
     background-size: 200px 100px;
     display: block;
@@ -32,7 +32,7 @@ header .container:nth-child(1) .col-xs-8:before {
     position: absolute;
     content:'';
     z-index: 1;
-}
+} */
 
 /* #board-info:before {
     background: url(https://chogether.github.io/tgd/images/xmas/xmas3.png) no-repeat;
