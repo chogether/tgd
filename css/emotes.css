@@ -233,6 +233,38 @@ img[alt="Kreygasm"],
     background-size: 50px 50px;
 }
 
+span[data-param1="ArsonNoSexy"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanWaaa.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="ArsonNoSexy"],
+#article-content-wrapper #article-content img[alt="ArsonNoSexy"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanWaaa.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+
+span[data-param1="SMOrc"] img {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanHello.gif);
+    width: 25px;
+    padding-left: 25px;
+    background-size: 25px 25px;
+}
+
+img[alt="SMOrc"],
+#article-content-wrapper #article-content img[alt="SMOrc"] {
+    background: url(https://chogether.github.io/tgd/images/emotes/cocochanHello.gif);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+
 span[data-param1="HotPokket"] img {
     background: url(https://chogether.github.io/tgd/images/emotes/cocochanDGC.gif);
     width: 25px;
