@@ -346,6 +346,16 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/globalmod.png"] {
     margin-top: 0.4em;
 }
 
+#board-info #score-area {
+    /* color: #fdc100; */
+    /* font-size: 12px; */
+    float: right;
+    /* position: relative; */
+    /* right: 0px; */
+    margin-right: 0.5em;
+    margin-top: 2.4em;
+}
+
 #board-info #viewers-area #viewers:before {
     content: "트둥이 ";
     cursor: text;
